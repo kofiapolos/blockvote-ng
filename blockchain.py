@@ -21,7 +21,7 @@ _contract_address = None
 _abi = None
 
 SOLC_VERSION = "0.8.0"
-CONTRACT_SOURCE = Path(__file__).parent / "contract" / "Election.sol"
+CONTRACT_SOURCE = Path(__file__).parent / "Election.sol"
 
 
 def _compile_contract():
