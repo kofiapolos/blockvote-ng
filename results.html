@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}Live Results — BlockVote NG{% endblock %}
+
+{% block content %}
+<div class="results-page">
+    <div class="results-header">
+        <h2>📊 Live Blockchain Results</h2>
+        <p>{{ election_status.title }}</p>
+        <div class="results-meta">
+            <span class="meta-chip">Total Votes: <strong>{{ total_votes }}</strong></span>
+            <span class="meta-chip">Block: <strong>#{{ election_status.block_number }}</strong></span>
+            <span class="meta-chip {% if election_status.is_open %}chip-open{% else %}chip-closed{% endif %}">
+                {% if election_status.is_open %}● Election Open{% else %}⚫ Election Closed{% endif %}
+            </span>
+        </div>
+    </div>
+
+    {% if total_votes == 0 %}
+    <div class="no-votes">
+        <p>No votes recorded yet. Be the first to cast your ballot.</p>
+        <a href="{{ url_for('index') }}" class="btn-primary">Go Vote</a>
+    </div>
+    {% else %}
+
+    <div class="results-grid">
+        {% for candidate in candidates %}
+        <div class="result-card {% if loop.first %}result-leading{% endif %}">
+            {% if loop.first %}
+            <div class="leading-badge">🏆 Leading</div>
+            {% endif %}
+            <div class="result-photo-wrap">
+                {% if image_map.get(candidate.id) %}
+                <img src="{{ image_map[candidate.id] }}"
+                     alt="{{ candidate.name }}"
+                     class="result-photo">
+                {% else %}
+                <div class="result-photo-placeholder">{{ candidate.name[0] }}</div>
+                {% endif %}
+            </div>
+            <div class="result-info">
+                <div class="result-name">{{ candidate.name }}</div>
+                <div class="result-party party-{{ candidate.party | replace(' ', '-') | lower }}">{{ candidate.party }}</div>
+            </div>
+            <div class="result-count">
+                <span class="vote-count">{{ candidate.votes }}</span>
+                <span class="vote-label">votes</span>
+            </div>
+            <div class="result-bar-wrap">
+                <div class="result-bar" style="width: {{ candidate.percentage }}%"></div>
+                <span class="result-pct">{{ candidate.percentage }}%</span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% endif %}
+
+    <div class="blockchain-info-bar">
+        <div class="info-item">
+            <span class="info-label">Contract Address</span>
+            <code class="info-value">{{ election_status.contract_address }}</code>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Network</span>
+            <code class="info-value">{{ election_status.network }}</code>
+        </div>
+        <div class="info-item">
+            <span class="info-label">Chain ID</span>
+            <code class="info-value">{{ election_status.chain_id }}</code>
+        </div>
+    </div>
+
+    <div class="results-footer">
+        <a href="{{ url_for('index') }}" class="btn-secondary">← Back to Voting</a>
+        <button class="btn-primary" onclick="location.reload()">🔄 Refresh Results</button>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+{% if election_status.is_open %}
+setTimeout(() => location.reload(), 15000);
+{% endif %}
+</script>
+{% endblock %}

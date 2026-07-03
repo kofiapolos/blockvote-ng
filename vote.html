@@ -1,0 +1,159 @@
+{% extends "base.html" %}
+{% block title %}Digital Ballot — BlockVote NG{% endblock %}
+
+{% block content %}
+<div class="vote-page">
+    <div class="ballot-header">
+        <div class="ballot-watermark">OFFICIAL BALLOT</div>
+        <div class="ballot-meta">
+            <div class="meta-item">
+                <span class="meta-label">Voter</span>
+                <span class="meta-value">{{ voter_name }}</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">State</span>
+                <span class="meta-value">{{ voter_state }}</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">LGA</span>
+                <span class="meta-value">{{ voter_lga }}</span>
+            </div>
+            <div class="meta-item">
+                <span class="meta-label">Ward</span>
+                <span class="meta-value">{{ voter_ward }}</span>
+            </div>
+        </div>
+        <h2 class="ballot-title">{{ election_status.title }}</h2>
+        <div class="election-badge {% if election_status.is_open %}badge-open{% else %}badge-closed{% endif %}">
+            {% if election_status.is_open %}
+            <span class="badge-dot"></span> Election Open
+            {% else %}
+            <span>⚫ Election Closed</span>
+            {% endif %}
+        </div>
+    </div>
+
+    {% if already_voted %}
+    <div class="voted-notice">
+        <div class="voted-icon">✅</div>
+        <h3>You Have Already Voted</h3>
+        <p>Your vote has been immutably recorded on the blockchain. You cannot vote again.</p>
+        <a href="{{ url_for('results') }}" class="btn-primary">View Live Results</a>
+    </div>
+
+    {% elif not election_status.is_open %}
+    <div class="voted-notice">
+        <div class="voted-icon">🔒</div>
+        <h3>Election is Closed</h3>
+        <p>The election period has ended. No more votes are being accepted.</p>
+        <a href="{{ url_for('results') }}" class="btn-primary">View Final Results</a>
+    </div>
+
+    {% else %}
+    <div class="ballot-instruction">
+        <p>Select <strong>ONE</strong> candidate below and confirm your vote. <em>Your choice is final and cannot be changed.</em></p>
+    </div>
+
+    <form action="{{ url_for('cast_vote') }}" method="POST" id="ballot-form">
+        <div class="candidates-grid">
+            {% for candidate in candidates %}
+            <label class="candidate-card" for="candidate-{{ candidate.id }}">
+                <input
+                    type="radio"
+                    name="candidate_id"
+                    id="candidate-{{ candidate.id }}"
+                    value="{{ candidate.id }}"
+                    required
+                >
+                <div class="card-inner">
+                    <div class="candidate-photo-wrap">
+                        {% if image_map.get(candidate.id) %}
+                        <img src="{{ image_map[candidate.id] }}"
+                             alt="{{ candidate.name }}"
+                             class="candidate-photo">
+                        {% else %}
+                        <div class="candidate-photo-placeholder">
+                            {{ candidate.name[0] }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    <div class="candidate-info">
+                        <div class="candidate-name">{{ candidate.name }}</div>
+                        <div class="candidate-party party-{{ candidate.party | replace(' ', '-') | lower }}">
+                            {{ candidate.party }}
+                        </div>
+                    </div>
+                    <div class="check-indicator">✓</div>
+                </div>
+            </label>
+            {% endfor %}
+        </div>
+
+        <div class="ballot-footer">
+            <div class="crypto-preview" id="crypto-preview" style="display:none;">
+                <div class="crypto-row">
+                    <span class="crypto-label">Payload Hash (SHA-256):</span>
+                    <code class="crypto-value" id="preview-hash">—</code>
+                </div>
+                <div class="crypto-row">
+                    <span class="crypto-label">Algorithm:</span>
+                    <code class="crypto-value">SHA-256(Voter_Choice + Session_Salt)</code>
+                </div>
+            </div>
+            <div class="submit-area">
+                <button type="button" class="btn-primary btn-cast" id="submit-btn" disabled onclick="confirmVote()">
+                    <span class="btn-icon">🗳️</span>
+                    Cast Vote on Blockchain
+                </button>
+                <p class="submit-note">⚠ This action is irreversible. Your vote will be permanently recorded.</p>
+            </div>
+        </div>
+    </form>
+
+    <div class="modal-overlay" id="confirm-modal" style="display:none;">
+        <div class="modal">
+            <div class="modal-icon">⛓️</div>
+            <h3>Confirm Blockchain Transaction</h3>
+            <p>You are about to cast your vote for:</p>
+            <div class="modal-candidate" id="modal-candidate-name">—</div>
+            <div class="modal-warning">This transaction is <strong>irreversible</strong> and will be permanently stored on the blockchain.</div>
+            <div class="modal-actions">
+                <button class="btn-secondary" onclick="cancelVote()">Cancel</button>
+                <button class="btn-primary" onclick="submitVote()">
+                    Confirm &amp; Send Transaction
+                </button>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const cards = document.querySelectorAll('.candidate-card');
+const submitBtn = document.getElementById('submit-btn');
+let selectedName = '';
+
+cards.forEach(card => {
+    card.addEventListener('click', () => {
+        selectedName = card.querySelector('.candidate-name').textContent.trim();
+        if (submitBtn) submitBtn.disabled = false;
+        document.getElementById('crypto-preview').style.display = 'flex';
+        const fakeHash = Array.from({length: 64}, () => '0123456789abcdef'[Math.floor(Math.random()*16)]).join('');
+        document.getElementById('preview-hash').textContent = fakeHash;
+    });
+});
+
+function confirmVote() {
+    document.getElementById('modal-candidate-name').textContent = selectedName;
+    document.getElementById('confirm-modal').style.display = 'flex';
+}
+function cancelVote() {
+    document.getElementById('confirm-modal').style.display = 'none';
+}
+function submitVote() {
+    document.getElementById('ballot-form').submit();
+}
+</script>
+{% endblock %}

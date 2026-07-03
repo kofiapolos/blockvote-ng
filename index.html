@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+{% block title %}Voter Authentication — BlockVote NG{% endblock %}
+
+{% block content %}
+<div class="auth-page">
+    <div class="auth-hero">
+        <div class="hero-flag">
+            <div class="hero-flag-stripe green"></div>
+            <div class="hero-flag-stripe white">
+                <div class="hero-emblem">🦅</div>
+            </div>
+            <div class="hero-flag-stripe green"></div>
+        </div>
+        <h1 class="hero-title">Nigeria Blockchain<br>Voting System</h1>
+        <p class="hero-sub">Secure · Transparent · Immutable</p>
+        <div class="hero-stats">
+            <div class="stat-pill">
+                <span class="stat-icon">🔗</span>
+                <span>Ethereum Testnet</span>
+            </div>
+            <div class="stat-pill">
+                <span class="stat-icon">🔐</span>
+                <span>SHA-256 Anonymization</span>
+            </div>
+            <div class="stat-pill">
+                <span class="stat-icon">📜</span>
+                <span>Smart Contract</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="auth-card">
+        {% if not blockchain_ready %}
+        <div class="init-banner">
+            <div class="spinner"></div>
+            <div>
+                <strong>Initializing Blockchain...</strong>
+                <p>Deploying Election Smart Contract to testnet. This may take up to 30 seconds on first launch.</p>
+                {% if init_error %}
+                <p class="error-text">⚠ {{ init_error }}</p>
+                {% endif %}
+            </div>
+        </div>
+        <script>setTimeout(() => location.reload(), 5000);</script>
+        {% else %}
+
+        <div class="auth-header">
+            <div class="inec-logo">INEC</div>
+            <h2>Voter Authentication</h2>
+            <p>Enter your BVAS (Bimodal Voter Accreditation System) ID to access your ballot</p>
+        </div>
+
+        <form action="{{ url_for('authenticate') }}" method="POST" class="auth-form">
+            <div class="form-group">
+                <label for="bvas_id">BVAS Voter ID</label>
+                <div class="input-wrapper">
+                    <span class="input-icon">🪪</span>
+                    <input
+                        type="text"
+                        id="bvas_id"
+                        name="bvas_id"
+                        placeholder="e.g. BVAS-NG-2023-001"
+                        autocomplete="off"
+                        autocorrect="off"
+                        spellcheck="false"
+                        required
+                    >
+                </div>
+                <small class="field-hint">Format: BVAS-NG-2023-XXX (001 through 015 for demo)</small>
+            </div>
+
+            <button type="submit" class="btn-primary btn-full">
+                <span class="btn-icon">🔑</span>
+                Authenticate &amp; Access Ballot
+            </button>
+        </form>
+
+        <div class="demo-section">
+            <p class="demo-label">Demo BVAS IDs (click to fill):</p>
+            <div class="demo-ids">
+                {% set demo_ids = [
+                    "BVAS-NG-2023-001", "BVAS-NG-2023-002", "BVAS-NG-2023-003",
+                    "BVAS-NG-2023-004", "BVAS-NG-2023-005"
+                ] %}
+                {% for did in demo_ids %}
+                <button class="demo-id-btn" onclick="document.getElementById('bvas_id').value='{{ did }}'">
+                    {{ did }}
+                </button>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="security-note">
+            <span class="security-icon">🔐</span>
+            <p>Your identity is cryptographically anonymized using SHA-256 hashing before being recorded on the blockchain. Your BVAS ID is never stored on-chain.</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="algorithm-panel">
+        <h3 class="algo-title">System Algorithm Flow</h3>
+        <div class="algo-steps">
+            <div class="algo-step">
+                <span class="step-num">01</span>
+                <div class="step-body">
+                    <strong>BVAS Authentication</strong>
+                    <p>Voter presents BVAS ID → validated against registry</p>
+                </div>
+            </div>
+            <div class="algo-step">
+                <span class="step-num">02</span>
+                <div class="step-body">
+                    <strong>SHA-256 Anonymization</strong>
+                    <p>COMPUTE hash = SHA-256(BVAS_ID + session_salt)</p>
+                </div>
+            </div>
+            <div class="algo-step">
+                <span class="step-num">03</span>
+                <div class="step-body">
+                    <strong>Web3 Transaction</strong>
+                    <p>SIGN & SEND transaction to Election Smart Contract</p>
+                </div>
+            </div>
+            <div class="algo-step">
+                <span class="step-num">04</span>
+                <div class="step-body">
+                    <strong>On-Chain Tally</strong>
+                    <p>Smart Contract increments tally & APPENDS block to ledger</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

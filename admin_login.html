@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Admin Login — BlockVote NG{% endblock %}
+
+{% block content %}
+<div class="auth-page">
+    <div class="auth-card" style="max-width: 440px; margin: 80px auto;">
+        <div class="auth-header">
+            <div class="inec-logo" style="background:#1a1a2e;">⚙️</div>
+            <h2>Admin Access</h2>
+            <p>Enter the admin PIN to access the election control panel</p>
+        </div>
+        <form action="{{ url_for('admin') }}" method="POST" class="auth-form">
+            <div class="form-group">
+                <label for="pin">Admin PIN</label>
+                <div class="input-wrapper">
+                    <span class="input-icon">🔐</span>
+                    <input type="password" id="pin" name="pin" placeholder="Enter admin PIN" required>
+                </div>
+                <small class="field-hint">Demo PIN: <strong>INEC2023</strong></small>
+            </div>
+            <button type="submit" class="btn-primary btn-full">Access Admin Panel</button>
+        </form>
+        <div style="text-align:center;margin-top:16px;">
+            <a href="{{ url_for('index') }}" class="btn-secondary" style="font-size:0.85rem;">← Back to Voting</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

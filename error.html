@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Error — BlockVote NG{% endblock %}
+{% block content %}
+<div style="text-align:center;padding:80px 20px;">
+    <div style="font-size:4rem;">⚠️</div>
+    <h2>{{ message }}</h2>
+    <a href="{{ url_for('index') }}" class="btn-primary" style="margin-top:24px;display:inline-block;">Return Home</a>
+</div>
+{% endblock %}

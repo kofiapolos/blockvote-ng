@@ -1,0 +1,390 @@
+{% extends "base.html" %}
+{% block title %}Admin Dashboard — BlockVote NG{% endblock %}
+
+{% block content %}
+<div class="admin-page">
+    <div class="admin-header">
+        <div>
+            <h2>⚙️ Admin Control Panel</h2>
+            <p>Blockchain Election Management Dashboard</p>
+        </div>
+        <div class="admin-actions">
+            {% if election_status.is_open %}
+            <a href="?action=close" class="btn-danger" onclick="return confirm('Close the election? No more votes will be accepted.')">
+                🔒 Close Election
+            </a>
+            {% else %}
+            <a href="?action=open" class="btn-success">🔓 Reopen Election</a>
+            {% endif %}
+            <a href="{{ url_for('admin_logout') }}" class="btn-secondary">Logout</a>
+        </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="admin-stats">
+        <div class="stat-card">
+            <div class="stat-num">{{ election_status.total_votes }}</div>
+            <div class="stat-lbl">Total Votes Cast</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">{{ candidates | selectattr('disabled', 'equalto', false) | list | length }}</div>
+            <div class="stat-lbl">Active Candidates</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-num">{{ election_status.block_number }}</div>
+            <div class="stat-lbl">Current Block</div>
+        </div>
+        <div class="stat-card {% if election_status.is_open %}stat-open{% else %}stat-closed{% endif %}">
+            <div class="stat-num">{% if election_status.is_open %}OPEN{% else %}CLOSED{% endif %}</div>
+            <div class="stat-lbl">Election Status</div>
+        </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════════
+         CANDIDATE MANAGEMENT
+    ════════════════════════════════════════════════════════ -->
+    <div class="admin-section" id="candidates">
+        <div class="section-header">
+            <h3>🗳️ Candidate Management</h3>
+            <button class="btn-primary btn-sm" onclick="togglePanel('add-panel')">
+                ＋ Add Candidate
+            </button>
+        </div>
+
+        <!-- Add Candidate Form -->
+        <div id="add-panel" class="candidate-form-panel" style="display:none;">
+            <h4>Add New Candidate</h4>
+            <form action="{{ url_for('admin_add_candidate') }}" method="POST"
+                  enctype="multipart/form-data" class="inline-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" name="name" placeholder="e.g. Candidate Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Party</label>
+                        <input type="text" name="party" placeholder="e.g. APC" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Candidate Photo</label>
+                        <div class="photo-upload-box" id="add-upload-box">
+                            <input type="file" name="photo" id="add-photo-input"
+                                   accept="image/*" class="photo-file-input"
+                                   onchange="previewPhoto(this, 'add-preview')">
+                            <div class="upload-placeholder" id="add-placeholder">
+                                <span class="upload-icon">📷</span>
+                                <span>Click to choose photo</span>
+                                <small>JPG, PNG, WEBP — max any size</small>
+                            </div>
+                            <img id="add-preview" class="upload-preview" style="display:none;" alt="Preview">
+                        </div>
+                    </div>
+                    <div class="form-group form-group-btn">
+                        <label>&nbsp;</label>
+                        <button type="submit" class="btn-primary">Add to Blockchain</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Candidates Table -->
+        <div class="table-scroll">
+            <table class="admin-table candidates-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Photo</th>
+                        <th>Candidate</th>
+                        <th>Party</th>
+                        <th>Votes</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for c in candidates %}
+                    <tr class="{% if c.disabled %}row-disabled{% endif %}" id="row-{{ c.id }}">
+                        <td><code>#{{ c.id }}</code></td>
+                        <td class="photo-cell">
+                            {% if image_map.get(c.id) %}
+                            <img src="{{ image_map[c.id] }}" alt="{{ c.name }}" class="table-photo">
+                            {% else %}
+                            <div class="table-photo-placeholder">{{ c.name[0] }}</div>
+                            {% endif %}
+                        </td>
+                        <td class="name-cell">{{ c.name }}</td>
+                        <td>
+                            <span class="party-tag party-{{ c.party | replace(' ', '-') | lower }}">
+                                {{ c.party }}
+                            </span>
+                        </td>
+                        <td><strong>{{ c.votes }}</strong></td>
+                        <td>
+                            {% if c.disabled %}
+                            <span class="status-badge status-disabled">Disabled</span>
+                            {% else %}
+                            <span class="status-badge status-active">Active</span>
+                            {% endif %}
+                        </td>
+                        <td class="action-cell">
+                            <button class="btn-icon-sm btn-edit"
+                                onclick="openEditModal(
+                                    {{ c.id }},
+                                    '{{ c.name | replace("'", "\\'") }}',
+                                    '{{ c.party | replace("'", "\\'") }}',
+                                    '{{ c.symbol }}',
+                                    '{{ image_map.get(c.id) or "" }}'
+                                )">
+                                ✏️ Edit
+                            </button>
+                            {% if c.disabled %}
+                            <a href="{{ url_for('admin_toggle_candidate', candidate_id=c.id) }}"
+                               class="btn-icon-sm btn-enable"
+                               onclick="return confirm('Re-enable {{ c.name }}?')">
+                                ✅ Enable
+                            </a>
+                            {% else %}
+                            <a href="{{ url_for('admin_toggle_candidate', candidate_id=c.id) }}"
+                               class="btn-icon-sm btn-disable"
+                               onclick="return confirm('Disable {{ c.name }}? They will be hidden from the ballot.')">
+                                🚫 Disable
+                            </a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <p class="table-note">
+            ℹ️ Disabled candidates are hidden from voters but their blockchain records are preserved.
+            Photos are stored on the server; only candidate data is written on-chain.
+        </p>
+    </div>
+
+    <!-- Edit Modal -->
+    <div class="modal-overlay" id="edit-modal" style="display:none;">
+        <div class="modal modal-wide">
+            <h3>✏️ Edit Candidate</h3>
+            <p class="modal-sub">Changes are written as a new on-chain transaction.</p>
+            <form action="{{ url_for('admin_edit_candidate') }}" method="POST"
+                  enctype="multipart/form-data">
+                <input type="hidden" name="candidate_id" id="edit-id">
+                <input type="hidden" name="symbol" id="edit-symbol">
+                <div class="form-row-vertical">
+                    <div class="form-group inline-form">
+                        <label>Full Name</label>
+                        <input type="text" name="name" id="edit-name" required>
+                    </div>
+                    <div class="form-group inline-form">
+                        <label>Party</label>
+                        <input type="text" name="party" id="edit-party" required>
+                    </div>
+                    <div class="form-group inline-form">
+                        <label>Candidate Photo <span class="field-hint-inline">(leave blank to keep current)</span></label>
+                        <div class="photo-upload-box" id="edit-upload-box">
+                            <input type="file" name="photo" id="edit-photo-input"
+                                   accept="image/*" class="photo-file-input"
+                                   onchange="previewPhoto(this, 'edit-preview-new')">
+                            <img id="edit-current-photo" class="upload-preview" style="display:none;" alt="Current photo">
+                            <img id="edit-preview-new"   class="upload-preview" style="display:none;" alt="New photo">
+                            <div class="upload-placeholder" id="edit-placeholder">
+                                <span class="upload-icon">📷</span>
+                                <span>Click to replace photo</span>
+                                <small>JPG, PNG, WEBP</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-actions" style="margin-top:20px;">
+                    <button type="button" class="btn-secondary" onclick="closeEditModal()">Cancel</button>
+                    <button type="submit" class="btn-primary">💾 Save to Blockchain</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Contract Details + Tally -->
+    <div class="admin-grid">
+        <div class="admin-section">
+            <h3>📜 Smart Contract Details</h3>
+            <div class="contract-details">
+                <div class="detail-row">
+                    <span class="detail-label">Contract Address</span>
+                    <code class="detail-value">{{ election_status.contract_address }}</code>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Admin Account</span>
+                    <code class="detail-value">{{ election_status.admin_account }}</code>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Network</span>
+                    <code class="detail-value">{{ election_status.network }}</code>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Chain ID</span>
+                    <code class="detail-value">{{ election_status.chain_id }}</code>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Election Title</span>
+                    <code class="detail-value">{{ election_status.title }}</code>
+                </div>
+            </div>
+        </div>
+
+        <div class="admin-section">
+            <h3>📊 Vote Tallies (On-Chain)</h3>
+            <table class="admin-table">
+                <thead>
+                    <tr><th>Candidate</th><th>Party</th><th>Votes</th><th>Share</th></tr>
+                </thead>
+                <tbody>
+                    {% for c in candidates %}
+                    {% if not c.disabled %}
+                    <tr>
+                        <td>{{ c.name }}</td>
+                        <td><span class="party-tag party-{{ c.party | replace(' ', '-') | lower }}">{{ c.party }}</span></td>
+                        <td><strong>{{ c.votes }}</strong></td>
+                        <td>
+                            {% if election_status.total_votes > 0 %}
+                            {{ "%.1f" | format(c.votes / election_status.total_votes * 100) }}%
+                            {% else %}—{% endif %}
+                        </td>
+                    </tr>
+                    {% endif %}
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Transaction Ledger -->
+    <div class="admin-section">
+        <h3>⛓️ Blockchain Transaction Ledger</h3>
+        {% if transactions %}
+        <div class="table-scroll">
+            <table class="admin-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Voter Hash (SHA-256)</th>
+                        <th>Candidate</th>
+                        <th>Party</th>
+                        <th>Block</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for tx in transactions %}
+                    <tr>
+                        <td><code>{{ tx.index + 1 }}</code></td>
+                        <td><code class="hash-short" title="{{ tx.voter_hash }}">{{ tx.voter_hash[:16] }}…</code></td>
+                        <td>{{ tx.candidate_name }}</td>
+                        <td><span class="party-tag party-{{ tx.candidate_party | replace(' ', '-') | lower }}">{{ tx.candidate_party }}</span></td>
+                        <td><code>#{{ tx.block_number }}</code></td>
+                        <td><code>{{ tx.timestamp }}</code></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <p class="no-data">No transactions recorded yet.</p>
+        {% endif %}
+    </div>
+
+    <!-- Security Comparison -->
+    <div class="admin-section">
+        <h3>🛡️ Security Comparison: Blockchain vs SQL-Injection</h3>
+        <div class="security-comparison">
+            <div class="security-col security-bad">
+                <h4>❌ Traditional SQL Database</h4>
+                <ul>
+                    <li>Vulnerable to SQL Injection attacks</li>
+                    <li><code>BVAS_ID=' OR '1'='1</code> bypasses auth</li>
+                    <li>Data can be altered by DB administrator</li>
+                    <li>No cryptographic proof of vote integrity</li>
+                    <li>Single point of failure</li>
+                    <li>Centralized — trusts one authority</li>
+                </ul>
+            </div>
+            <div class="security-col security-good">
+                <h4>✅ This Blockchain System</h4>
+                <ul>
+                    <li>No SQL — immune to injection attacks</li>
+                    <li>SHA-256 anonymization prevents ID forgery</li>
+                    <li>Smart contract enforces rules automatically</li>
+                    <li>Every vote is a cryptographically signed transaction</li>
+                    <li>Immutable ledger — votes cannot be altered</li>
+                    <li>Decentralized consensus — no single authority</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function togglePanel(id) {
+    const el = document.getElementById(id);
+    el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+
+function previewPhoto(input, previewId) {
+    const preview = document.getElementById(previewId);
+    if (input.files && input.files[0]) {
+        const reader = new FileReader();
+        reader.onload = e => {
+            preview.src = e.target.result;
+            preview.style.display = 'block';
+            // hide placeholder & current photo
+            const box = input.closest('.photo-upload-box');
+            const placeholder = box.querySelector('.upload-placeholder');
+            if (placeholder) placeholder.style.display = 'none';
+            const cur = box.querySelector('#edit-current-photo');
+            if (cur) cur.style.display = 'none';
+        };
+        reader.readAsDataURL(input.files[0]);
+    }
+}
+
+function openEditModal(id, name, party, symbol, currentPhoto) {
+    document.getElementById('edit-id').value     = id;
+    document.getElementById('edit-name').value   = name;
+    document.getElementById('edit-party').value  = party;
+    document.getElementById('edit-symbol').value = symbol;
+
+    // Reset new-photo preview
+    const newPreview = document.getElementById('edit-preview-new');
+    newPreview.src = '';
+    newPreview.style.display = 'none';
+
+    // Reset file input
+    document.getElementById('edit-photo-input').value = '';
+
+    const curPhoto = document.getElementById('edit-current-photo');
+    const placeholder = document.getElementById('edit-placeholder');
+
+    if (currentPhoto) {
+        curPhoto.src = currentPhoto;
+        curPhoto.style.display = 'block';
+        placeholder.style.display = 'none';
+    } else {
+        curPhoto.style.display = 'none';
+        placeholder.style.display = 'flex';
+    }
+
+    document.getElementById('edit-modal').style.display = 'flex';
+}
+
+function closeEditModal() {
+    document.getElementById('edit-modal').style.display = 'none';
+}
+
+document.getElementById('edit-modal').addEventListener('click', function(e) {
+    if (e.target === this) closeEditModal();
+});
+</script>
+{% endblock %}

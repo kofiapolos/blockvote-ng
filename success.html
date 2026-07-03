@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Vote Recorded — BlockVote NG{% endblock %}
+
+{% block content %}
+<div class="success-page">
+    <div class="success-card">
+        <div class="success-icon">✅</div>
+        <h2>Transaction Successful: Vote Recorded</h2>
+        <p class="success-sub">Your vote has been immutably stored on the Ethereum blockchain.</p>
+
+        <div class="tx-details">
+            <h3>🔗 Blockchain Transaction Receipt</h3>
+
+            <div class="tx-row">
+                <span class="tx-label">Status</span>
+                <span class="tx-value tx-success">✓ Confirmed</span>
+            </div>
+            <div class="tx-row">
+                <span class="tx-label">Transaction Hash</span>
+                <code class="tx-value tx-hash">{{ result.tx_hash }}</code>
+            </div>
+            <div class="tx-row">
+                <span class="tx-label">Block Number</span>
+                <code class="tx-value">#{{ result.block_number }}</code>
+            </div>
+            <div class="tx-row">
+                <span class="tx-label">Block Hash</span>
+                <code class="tx-value tx-hash">{{ result.block_hash }}</code>
+            </div>
+            <div class="tx-row">
+                <span class="tx-label">Contract Address</span>
+                <code class="tx-value tx-hash">{{ result.contract_address }}</code>
+            </div>
+            <div class="tx-row">
+                <span class="tx-label">Gas Used</span>
+                <code class="tx-value">{{ result.gas_used }} units</code>
+            </div>
+        </div>
+
+        <div class="crypto-details">
+            <h3>🔐 Cryptographic Proof</h3>
+
+            <div class="tx-row">
+                <span class="tx-label">Voter Hash (SHA-256)</span>
+                <code class="tx-value tx-hash">{{ result.voter_hash }}</code>
+            </div>
+            <div class="tx-row">
+                <span class="tx-label">Payload Hash</span>
+                <code class="tx-value tx-hash">{{ result.payload_hash }}</code>
+            </div>
+            <div class="tx-row">
+                <span class="tx-label">Algorithm</span>
+                <code class="tx-value">SHA-256(BVAS_ID + session_salt)</code>
+            </div>
+            <div class="tx-row">
+                <span class="tx-label">Network</span>
+                <span class="tx-value">PyEVM Local Testnet (Simulated Ganache)</span>
+            </div>
+        </div>
+
+        <div class="algo-note">
+            <p>
+                <strong>Algorithm executed:</strong> Your BVAS ID was never transmitted to the blockchain.
+                The SHA-256 hash ensures <em>cryptographic anonymization</em> — your vote is private,
+                but the <em>existence</em> of your vote is verifiable on-chain.
+            </p>
+        </div>
+
+        <div class="success-actions">
+            <a href="{{ url_for('results') }}" class="btn-primary">📊 View Live Results</a>
+            <a href="{{ url_for('logout') }}" class="btn-secondary">Logout</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Blockchain Voting System — Nigeria{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-inner">
+            <div class="nav-brand">
+                <div class="flag-strip">
+                    <span class="flag-green"></span>
+                    <span class="flag-white"></span>
+                    <span class="flag-green"></span>
+                </div>
+                <div class="brand-text">
+                    <span class="brand-title">BlockVote NG</span>
+                    <span class="brand-sub">Blockchain Voting System</span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="{{ url_for('results') }}" class="nav-link">Live Results</a>
+                <a href="{{ url_for('admin') }}" class="nav-link nav-link-admin">Admin</a>
+                {% if session.get('bvas_id') %}
+                <a href="{{ url_for('logout') }}" class="nav-link nav-link-logout">Logout</a>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+
+    <div class="flash-container">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% for category, message in messages %}
+            <div class="flash flash-{{ category }}">
+                <span class="flash-icon">
+                    {% if category == 'success' %}✓{% elif category == 'danger' %}✗{% elif category == 'warning' %}⚠{% else %}ℹ{% endif %}
+                </span>
+                {{ message }}
+            </div>
+            {% endfor %}
+        {% endwith %}
+    </div>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="footer-badge">🔗 Ethereum Testnet (PyEVM)</span>
+                <span class="footer-badge">🔐 SHA-256 Encrypted</span>
+                <span class="footer-badge">📜 Smart Contract</span>
+            </div>
+            <div class="footer-right">
+                Final Year Project — Blockchain Voting System in Nigeria
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

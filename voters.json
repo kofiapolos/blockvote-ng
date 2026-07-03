@@ -1,0 +1,5996 @@
+{
+  "BVAS-NG-2023-001": {
+    "name": "Gbenga Nwosu",
+    "state": "Kaduna",
+    "lga": "Igabi",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-002": {
+    "name": "Kelechi Aigbokhan",
+    "state": "Benue",
+    "lga": "Katsina-Ala",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-003": {
+    "name": "Omolola Igwe",
+    "state": "Adamawa",
+    "lga": "Fufore",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-004": {
+    "name": "Adekunle Ogunyemi",
+    "state": "Adamawa",
+    "lga": "Lamurde",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-005": {
+    "name": "Ifedayo Mustapha",
+    "state": "Gombe",
+    "lga": "Kwami",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-006": {
+    "name": "Grace Lam-Adesina",
+    "state": "Abia",
+    "lga": "Arochukwu",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-007": {
+    "name": "Ogochukwu Tukur",
+    "state": "Delta",
+    "lga": "Burutu",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-008": {
+    "name": "Seun Musa",
+    "state": "Nasarawa",
+    "lga": "Awe",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-009": {
+    "name": "Chinyere Isokariari",
+    "state": "Jigawa",
+    "lga": "Auyo",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-010": {
+    "name": "Ifechukwu Garba",
+    "state": "Nasarawa",
+    "lga": "Awe",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-011": {
+    "name": "Hope Oyinlola",
+    "state": "Lagos",
+    "lga": "Ifako-Ijaiye",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-012": {
+    "name": "Halima Obi",
+    "state": "Gombe",
+    "lga": "Funakaye",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-013": {
+    "name": "Adekunle Soludo",
+    "state": "Benue",
+    "lga": "Gwer East",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-014": {
+    "name": "Chibuokem Sambo",
+    "state": "Lagos",
+    "lga": "Alimosho",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-015": {
+    "name": "Hassan Adesanya",
+    "state": "Kaduna",
+    "lga": "Chikun",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-016": {
+    "name": "Garba Ogunremi",
+    "state": "Imo",
+    "lga": "Ehime Mbano",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-017": {
+    "name": "Oluwaseyi Shagari",
+    "state": "Zamfara",
+    "lga": "Bukkuyum",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-018": {
+    "name": "Aisha Akinsanya",
+    "state": "Akwa Ibom",
+    "lga": "Etim Ekpo",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-019": {
+    "name": "Luke Nnaji",
+    "state": "Enugu",
+    "lga": "Isi Uzo",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-020": {
+    "name": "Segun Ciroma",
+    "state": "Rivers",
+    "lga": "Bonny",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-021": {
+    "name": "Uchenna Lawan",
+    "state": "Cross River",
+    "lga": "Bakassi",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-022": {
+    "name": "Ifechukwu Lawan",
+    "state": "Ondo",
+    "lga": "Ilaje",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-023": {
+    "name": "Babatunde Olawale",
+    "state": "Cross River",
+    "lga": "Calabar South",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-024": {
+    "name": "Funmi Esele",
+    "state": "Anambra",
+    "lga": "Awka North",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-025": {
+    "name": "Abdullahi Ajimobi",
+    "state": "Ondo",
+    "lga": "Ilaje",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-026": {
+    "name": "Oluwatimilehin Okeke",
+    "state": "Oyo",
+    "lga": "Ibadan South East",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-027": {
+    "name": "Tunde Kwankwaso",
+    "state": "Borno",
+    "lga": "Gubio",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-028": {
+    "name": "Ogochukwu Abdullahi",
+    "state": "Kano",
+    "lga": "Dala",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-029": {
+    "name": "Chibuokem Okafor",
+    "state": "Jigawa",
+    "lga": "Gumel",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-030": {
+    "name": "Rahinatu Ezeife",
+    "state": "Benue",
+    "lga": "Gboko",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-031": {
+    "name": "Dare Yusuf",
+    "state": "Lagos",
+    "lga": "Alimosho",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-032": {
+    "name": "Ifunanya Okeke",
+    "state": "Abia",
+    "lga": "Ohafia",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-033": {
+    "name": "Ramatu Eze",
+    "state": "Borno",
+    "lga": "Chibok",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-034": {
+    "name": "Monday Anozie",
+    "state": "Imo",
+    "lga": "Isu",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-035": {
+    "name": "Biodun Orbih",
+    "state": "Rivers",
+    "lga": "Ahoada East",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-036": {
+    "name": "Uzoma Sani",
+    "state": "Plateau",
+    "lga": "Langtang North",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-037": {
+    "name": "Matthew Ogunyele",
+    "state": "Ondo",
+    "lga": "Akoko South West",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-038": {
+    "name": "Taiwo Ize-Iyamu",
+    "state": "Katsina",
+    "lga": "Dan Musa",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-039": {
+    "name": "Nkemsinachi Achebe",
+    "state": "Taraba",
+    "lga": "Karim Lamido",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-040": {
+    "name": "Samuel Olawale",
+    "state": "Bauchi",
+    "lga": "Dass",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-041": {
+    "name": "Adeniyi Eze",
+    "state": "Gombe",
+    "lga": "Akko",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-042": {
+    "name": "Hauwa Akinsanya",
+    "state": "Bauchi",
+    "lga": "Alkaleri",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-043": {
+    "name": "Ramatu Ogunlade",
+    "state": "Imo",
+    "lga": "Ideato North",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-044": {
+    "name": "Segun Oguntayo",
+    "state": "Cross River",
+    "lga": "Etung",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-045": {
+    "name": "Salihu Tanko",
+    "state": "Plateau",
+    "lga": "Kanam",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-046": {
+    "name": "Bukola Usman",
+    "state": "Ondo",
+    "lga": "Akure South",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-047": {
+    "name": "Gbemisola Babangida",
+    "state": "Anambra",
+    "lga": "Awka North",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-048": {
+    "name": "Taiwo Orbih",
+    "state": "Kogi",
+    "lga": "Ajaokuta",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-049": {
+    "name": "Nuhu Adeleke",
+    "state": "Yobe",
+    "lga": "Gulani",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-050": {
+    "name": "Omolola Bakare",
+    "state": "Kaduna",
+    "lga": "Kachia",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-051": {
+    "name": "Sadiya Suleiman",
+    "state": "Zamfara",
+    "lga": "Bakura",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-052": {
+    "name": "Ifechi Adebayo",
+    "state": "Abia",
+    "lga": "Aba South",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-053": {
+    "name": "Usman Lawal",
+    "state": "Rivers",
+    "lga": "Degema",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-054": {
+    "name": "Adewumi Achebe",
+    "state": "Anambra",
+    "lga": "Awka South",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-055": {
+    "name": "Emeka Ogbu",
+    "state": "Jigawa",
+    "lga": "Garki",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-056": {
+    "name": "Omolola Bindow",
+    "state": "Zamfara",
+    "lga": "Gusau",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-057": {
+    "name": "Shehu Maigari",
+    "state": "Enugu",
+    "lga": "Aninri",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-058": {
+    "name": "Ifechi Anozie",
+    "state": "Kebbi",
+    "lga": "Aleiro",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-059": {
+    "name": "Saliha Ogunyemi",
+    "state": "Taraba",
+    "lga": "Donga",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-060": {
+    "name": "Ifeanyi Abubakar",
+    "state": "Edo",
+    "lga": "Egor",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-061": {
+    "name": "Halima Abubakar",
+    "state": "Imo",
+    "lga": "Ihitte/Uboma",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-062": {
+    "name": "Samuel Cookey",
+    "state": "Akwa Ibom",
+    "lga": "Ibiono-Ibom",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-063": {
+    "name": "Omolade Gusau",
+    "state": "FCT",
+    "lga": "Kwali",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-064": {
+    "name": "David Adesanya",
+    "state": "Kebbi",
+    "lga": "Augie",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-065": {
+    "name": "Adewunmi Sani",
+    "state": "Katsina",
+    "lga": "Dandume",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-066": {
+    "name": "Ramatu Okonkwo",
+    "state": "Oyo",
+    "lga": "Ibadan South West",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-067": {
+    "name": "Toyin Mbah",
+    "state": "Yobe",
+    "lga": "Fika",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-068": {
+    "name": "Matthew Sani",
+    "state": "Kwara",
+    "lga": "Baruten",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-069": {
+    "name": "Oluwafemi Dikko",
+    "state": "Ebonyi",
+    "lga": "Ivo",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-070": {
+    "name": "Peace Wosu",
+    "state": "Taraba",
+    "lga": "Ardo Kola",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-071": {
+    "name": "Joy Peter",
+    "state": "Benue",
+    "lga": "Apa",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-072": {
+    "name": "Dayo Ngige",
+    "state": "Benue",
+    "lga": "Katsina-Ala",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-073": {
+    "name": "Mark Dikko",
+    "state": "Enugu",
+    "lga": "Ezeagu",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-074": {
+    "name": "Matthew Ogunyemi",
+    "state": "Rivers",
+    "lga": "Andoni",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-075": {
+    "name": "Funmi Sambo",
+    "state": "Ondo",
+    "lga": "Akure North",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-076": {
+    "name": "Emeka Obiechina",
+    "state": "Cross River",
+    "lga": "Bekwarra",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-077": {
+    "name": "Chizaram Amadi",
+    "state": "Ondo",
+    "lga": "Ifedore",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-078": {
+    "name": "Gbenga Mbah",
+    "state": "Delta",
+    "lga": "Isoko North",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-079": {
+    "name": "Oluwafemi Cookey",
+    "state": "Zamfara",
+    "lga": "Birnin Magaji/Kiyaw",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-080": {
+    "name": "Uzoma Obi",
+    "state": "Katsina",
+    "lga": "Charanchi",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-081": {
+    "name": "Mustapha Adesanya",
+    "state": "Imo",
+    "lga": "Ahiazu Mbaise",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-082": {
+    "name": "Kehinde Obasi",
+    "state": "Delta",
+    "lga": "Burutu",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-083": {
+    "name": "Aliyu Chukwuemeka",
+    "state": "Ogun",
+    "lga": "Abeokuta North",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-084": {
+    "name": "Adaora Makinde",
+    "state": "Ogun",
+    "lga": "Egbado North",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-085": {
+    "name": "Abdullahi Makinde",
+    "state": "Benue",
+    "lga": "Gwer East",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-086": {
+    "name": "Salisu Olawale",
+    "state": "Ekiti",
+    "lga": "Ido Osi",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-087": {
+    "name": "Love Aregbesola",
+    "state": "Gombe",
+    "lga": "Dukku",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-088": {
+    "name": "Nuhu Salami",
+    "state": "Kogi",
+    "lga": "Dekina",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-089": {
+    "name": "Grace Eneh",
+    "state": "Sokoto",
+    "lga": "Gwadabawa",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-090": {
+    "name": "Nkechi Nwosu",
+    "state": "Borno",
+    "lga": "Biu",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-091": {
+    "name": "Matthew Igwe",
+    "state": "Benue",
+    "lga": "Konshisha",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-092": {
+    "name": "Chinyere Orbih",
+    "state": "Kebbi",
+    "lga": "Bunza",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-093": {
+    "name": "Ifeanyi Abdullahi",
+    "state": "Nasarawa",
+    "lga": "Nasarawa Egon",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-094": {
+    "name": "Joshua Obi",
+    "state": "Ondo",
+    "lga": "Akoko North East",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-095": {
+    "name": "Ifechukwu Kwankwaso",
+    "state": "Ekiti",
+    "lga": "Emure",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-096": {
+    "name": "Halima Yar'adua",
+    "state": "Kogi",
+    "lga": "Kabba/Bunu",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-097": {
+    "name": "Obiora Shaibu",
+    "state": "Katsina",
+    "lga": "Danja",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-098": {
+    "name": "Kehinde Onyekachi",
+    "state": "Niger",
+    "lga": "Bosso",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-099": {
+    "name": "Uzoma Adeleke",
+    "state": "Ogun",
+    "lga": "Ifo",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-100": {
+    "name": "Peace Salami",
+    "state": "Zamfara",
+    "lga": "Anka",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-101": {
+    "name": "Blessing Adesanya",
+    "state": "Ondo",
+    "lga": "Ilaje",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-102": {
+    "name": "Adaobi Babangida",
+    "state": "Osun",
+    "lga": "Ede South",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-103": {
+    "name": "Ifeanyi Ogundele",
+    "state": "Ebonyi",
+    "lga": "Afikpo North",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-104": {
+    "name": "Ifeoluwa Gusau",
+    "state": "Kogi",
+    "lga": "Ajaokuta",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-105": {
+    "name": "Goodness Olawale",
+    "state": "Ekiti",
+    "lga": "Ekiti East",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-106": {
+    "name": "Musa Tanko",
+    "state": "Plateau",
+    "lga": "Langtang South",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-107": {
+    "name": "Chibuokem Mustapha",
+    "state": "FCT",
+    "lga": "Bwari",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-108": {
+    "name": "Rabiu Salami",
+    "state": "Imo",
+    "lga": "Ehime Mbano",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-109": {
+    "name": "Wale Okpebholo",
+    "state": "Ondo",
+    "lga": "Akoko South West",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-110": {
+    "name": "Ifeoluseun Babangida",
+    "state": "Anambra",
+    "lga": "Ihiala",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-111": {
+    "name": "Obiora Shehu",
+    "state": "Cross River",
+    "lga": "Calabar Municipal",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-112": {
+    "name": "Chiamaka Esele",
+    "state": "Osun",
+    "lga": "Ejigbo",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-113": {
+    "name": "Omobolanle Oyinlola",
+    "state": "Zamfara",
+    "lga": "Gusau",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-114": {
+    "name": "Salihu Imam",
+    "state": "Jigawa",
+    "lga": "Birniwa",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-115": {
+    "name": "Ifeoma Ogunwale",
+    "state": "Imo",
+    "lga": "Ideato North",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-116": {
+    "name": "Sadiya Ize-Iyamu",
+    "state": "Kano",
+    "lga": "Bebeji",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-117": {
+    "name": "Adaora Nwachukwu",
+    "state": "Yobe",
+    "lga": "Bursari",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-118": {
+    "name": "Nnamdi Akinsanya",
+    "state": "Nasarawa",
+    "lga": "Doma",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-119": {
+    "name": "Zainab Mustapha",
+    "state": "Ogun",
+    "lga": "Ewekoro",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-120": {
+    "name": "Chidera Mustapha",
+    "state": "Anambra",
+    "lga": "Ayamelum",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-121": {
+    "name": "Oluwafunmilayo Achebe",
+    "state": "Adamawa",
+    "lga": "Madagali",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-122": {
+    "name": "Saliha Okafor",
+    "state": "Kwara",
+    "lga": "Ifelodun",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-123": {
+    "name": "Omolade Ogunremi",
+    "state": "Yobe",
+    "lga": "Karasuwa",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-124": {
+    "name": "Ramat Olawale",
+    "state": "Kaduna",
+    "lga": "Jema'a",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-125": {
+    "name": "Chioma Ogbu",
+    "state": "Kogi",
+    "lga": "Idah",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-126": {
+    "name": "Chidera Okeke",
+    "state": "Cross River",
+    "lga": "Etung",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-127": {
+    "name": "Ngozi Ezeife",
+    "state": "Niger",
+    "lga": "Katcha",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-128": {
+    "name": "Ngozi Abubakar",
+    "state": "Ondo",
+    "lga": "Akoko South Akure East",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-129": {
+    "name": "Bala Chukwu",
+    "state": "Jigawa",
+    "lga": "Gagarawa",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-130": {
+    "name": "Segun Shehu",
+    "state": "Kebbi",
+    "lga": "Birnin Kebbi",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-131": {
+    "name": "Grace Esele",
+    "state": "Ogun",
+    "lga": "Egbado South",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-132": {
+    "name": "Salisu Eze",
+    "state": "Yobe",
+    "lga": "Bade",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-133": {
+    "name": "Adebayo Ciroma",
+    "state": "Bauchi",
+    "lga": "Alkaleri",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-134": {
+    "name": "Samuel Afolabi",
+    "state": "Adamawa",
+    "lga": "Madagali",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-135": {
+    "name": "Monday Sani",
+    "state": "Plateau",
+    "lga": "Bassa",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-136": {
+    "name": "Adeola Babangida",
+    "state": "Jigawa",
+    "lga": "Dutse",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-137": {
+    "name": "Dayo Okpebholo",
+    "state": "Ebonyi",
+    "lga": "Ezza South",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-138": {
+    "name": "Ngozi Obi",
+    "state": "Katsina",
+    "lga": "Daura",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-139": {
+    "name": "Adewunmi Ize-Iyamu",
+    "state": "Ekiti",
+    "lga": "Efon",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-140": {
+    "name": "Emmanuel Ibrahim",
+    "state": "Katsina",
+    "lga": "Daura",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-141": {
+    "name": "Bello Eneh",
+    "state": "Yobe",
+    "lga": "Gujba",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-142": {
+    "name": "Halima Ogunyemi",
+    "state": "Kogi",
+    "lga": "Adavi",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-143": {
+    "name": "Ramatu Ibrahim",
+    "state": "Ondo",
+    "lga": "Akure South",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-144": {
+    "name": "Obi Hussaini",
+    "state": "Edo",
+    "lga": "Etsako West",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-145": {
+    "name": "Ifechukwu Okpebholo",
+    "state": "Plateau",
+    "lga": "Kanke",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-146": {
+    "name": "Luke Onyekachi",
+    "state": "Imo",
+    "lga": "Ahiazu Mbaise",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-147": {
+    "name": "Chibuike Tanko",
+    "state": "Oyo",
+    "lga": "Ibadan South West",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-148": {
+    "name": "Oluwaseyi Ugwu",
+    "state": "Adamawa",
+    "lga": "Jada",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-149": {
+    "name": "Bala Ogunwale",
+    "state": "Enugu",
+    "lga": "Ezeagu",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-150": {
+    "name": "Ogochukwu Tukur",
+    "state": "Kaduna",
+    "lga": "Kaduna North",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-151": {
+    "name": "Ifeoluseun Adeleke",
+    "state": "Bayelsa",
+    "lga": "Nembe",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-152": {
+    "name": "Ramatu Briggs",
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-153": {
+    "name": "Chibueze Ajimobi",
+    "state": "Adamawa",
+    "lga": "Fufore",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-154": {
+    "name": "Adeyemi Salami",
+    "state": "Imo",
+    "lga": "Ideato North",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-155": {
+    "name": "Oluwafemi Ogundele",
+    "state": "Zamfara",
+    "lga": "Kaura Namoda",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-156": {
+    "name": "Omolola Osagie",
+    "state": "Zamfara",
+    "lga": "Chafe",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-157": {
+    "name": "Chibuokem Shagari",
+    "state": "Katsina",
+    "lga": "Bindawa",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-158": {
+    "name": "Chukwu Shaibu",
+    "state": "Ekiti",
+    "lga": "Emure",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-159": {
+    "name": "Ifechukwu Akin-George",
+    "state": "Edo",
+    "lga": "Esan North East",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-160": {
+    "name": "Rashida Tukur",
+    "state": "Taraba",
+    "lga": "Lau",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-161": {
+    "name": "Toyin Oyinlola",
+    "state": "Ekiti",
+    "lga": "Ekiti West",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-162": {
+    "name": "Babatunde Akinwande",
+    "state": "Katsina",
+    "lga": "Bakori",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-163": {
+    "name": "Uzoma Tukur",
+    "state": "Akwa Ibom",
+    "lga": "Abak",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-164": {
+    "name": "Faith Bindow",
+    "state": "Cross River",
+    "lga": "Calabar Municipal",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-165": {
+    "name": "Sola Peterside",
+    "state": "Kano",
+    "lga": "Dambatta",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-166": {
+    "name": "Nkemsinachi Ugwu",
+    "state": "Edo",
+    "lga": "Akoko-Edo",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-167": {
+    "name": "Saliha Abdullahi",
+    "state": "Bauchi",
+    "lga": "Ganjuwa",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-168": {
+    "name": "Ramatu Peterside",
+    "state": "Anambra",
+    "lga": "Awka South",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-169": {
+    "name": "Peace Abubakar",
+    "state": "Imo",
+    "lga": "Ahiazu Mbaise",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-170": {
+    "name": "Omolara Isokariari",
+    "state": "Gombe",
+    "lga": "Nafada",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-171": {
+    "name": "Chibuike Ezeife",
+    "state": "Osun",
+    "lga": "Boluwaduro",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-172": {
+    "name": "Omobolanle Waziri",
+    "state": "FCT",
+    "lga": "Kwali",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-173": {
+    "name": "Toyin Akin-George",
+    "state": "Enugu",
+    "lga": "Enugu North",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-174": {
+    "name": "Femi Adeyemi",
+    "state": "Imo",
+    "lga": "Ehime Mbano",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-175": {
+    "name": "Sadiya Adeyemi",
+    "state": "Abia",
+    "lga": "Isiala Ngwa South",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-176": {
+    "name": "Salisu Maigari",
+    "state": "Akwa Ibom",
+    "lga": "Esit-Eket",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-177": {
+    "name": "Mercy Bindow",
+    "state": "Oyo",
+    "lga": "Akinyele",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-178": {
+    "name": "Matthew Makinde",
+    "state": "Ekiti",
+    "lga": "Gbonyin",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-179": {
+    "name": "Ifedayo Olawale",
+    "state": "Delta",
+    "lga": "Ethiope East",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-180": {
+    "name": "Ramatu Anozie",
+    "state": "Ebonyi",
+    "lga": "Ezza South",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-181": {
+    "name": "Blessing Suleiman",
+    "state": "Borno",
+    "lga": "Dikwa",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-182": {
+    "name": "Taiwo Shagari",
+    "state": "Sokoto",
+    "lga": "Isa",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-183": {
+    "name": "Nkemsinachi Abubakar",
+    "state": "Akwa Ibom",
+    "lga": "Etinan",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-184": {
+    "name": "Daniel Nwosu",
+    "state": "Bayelsa",
+    "lga": "Nembe",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-185": {
+    "name": "Kemi Akin-George",
+    "state": "Kaduna",
+    "lga": "Kaduna South",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-186": {
+    "name": "Sani Ogundele",
+    "state": "Taraba",
+    "lga": "Karim Lamido",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-187": {
+    "name": "Bala Cookey",
+    "state": "Ondo",
+    "lga": "Idanre",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-188": {
+    "name": "Salisu Eneh",
+    "state": "Ogun",
+    "lga": "Ewekoro",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-189": {
+    "name": "Seun Fayemi",
+    "state": "Ebonyi",
+    "lga": "Ikwo",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-190": {
+    "name": "Rabiu Dikko",
+    "state": "Niger",
+    "lga": "Gurara",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-191": {
+    "name": "Chibuokem Musa",
+    "state": "Kebbi",
+    "lga": "Bagudo",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-192": {
+    "name": "Dayo Ero",
+    "state": "Niger",
+    "lga": "Gurara",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-193": {
+    "name": "Ifechi Babangida",
+    "state": "Ogun",
+    "lga": "Abeokuta North",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-194": {
+    "name": "Ifeoluseun Asogwa",
+    "state": "Rivers",
+    "lga": "Degema",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-195": {
+    "name": "Kehinde Shagari",
+    "state": "Zamfara",
+    "lga": "Birnin Magaji/Kiyaw",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-196": {
+    "name": "Nkemsinachi Chukwuemeka",
+    "state": "Rivers",
+    "lga": "Ahoada East",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-197": {
+    "name": "Monday Obaseki",
+    "state": "Ebonyi",
+    "lga": "Ezza South",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-198": {
+    "name": "Sola Amadi",
+    "state": "Ogun",
+    "lga": "Abeokuta South",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-199": {
+    "name": "Dayo Babangida",
+    "state": "Borno",
+    "lga": "Bama",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-200": {
+    "name": "Faith Ogunlade",
+    "state": "Kaduna",
+    "lga": "Jema'a",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-201": {
+    "name": "Salisu Tanko",
+    "state": "Oyo",
+    "lga": "Ibadan South East",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-202": {
+    "name": "Oluwatimilehin Adeleke",
+    "state": "Sokoto",
+    "lga": "Dange Shuni",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-203": {
+    "name": "Patience Ero",
+    "state": "Ogun",
+    "lga": "Ewekoro",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-204": {
+    "name": "Luke Aregbesola",
+    "state": "Abia",
+    "lga": "Ikwuano",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-205": {
+    "name": "Ramatu Soludo",
+    "state": "Delta",
+    "lga": "Ika South",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-206": {
+    "name": "Rashida Eneh",
+    "state": "Kogi",
+    "lga": "Ijumu",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-207": {
+    "name": "Oluwabunmi Shehu",
+    "state": "Kebbi",
+    "lga": "Augie",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-208": {
+    "name": "Oluwatimilehin Akinsanya",
+    "state": "Ogun",
+    "lga": "Abeokuta North",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-209": {
+    "name": "Salihu Obaseki",
+    "state": "Nasarawa",
+    "lga": "Kokona",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-210": {
+    "name": "Rabiu Igwe",
+    "state": "Cross River",
+    "lga": "Calabar South",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-211": {
+    "name": "Nkechi Obiano",
+    "state": "Benue",
+    "lga": "Gwer West",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-212": {
+    "name": "Ify Ezeife",
+    "state": "Oyo",
+    "lga": "Afijio",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-213": {
+    "name": "Kehinde Obiano",
+    "state": "Delta",
+    "lga": "Aniocha South",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-214": {
+    "name": "Matthew Ugwu",
+    "state": "Niger",
+    "lga": "Agwara",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-215": {
+    "name": "Ifenna Okeke",
+    "state": "Kebbi",
+    "lga": "Dandi",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-216": {
+    "name": "Adaeze Obasi",
+    "state": "Bauchi",
+    "lga": "Damban",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-217": {
+    "name": "Adeniyi Osagie",
+    "state": "Bayelsa",
+    "lga": "Southern Ijaw",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-218": {
+    "name": "Toyin Suleiman",
+    "state": "Ebonyi",
+    "lga": "Ezza South",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-219": {
+    "name": "Musa Onyekachi",
+    "state": "Anambra",
+    "lga": "Dunukofia",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-220": {
+    "name": "Oluwakemi Hussaini",
+    "state": "Delta",
+    "lga": "Burutu",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-221": {
+    "name": "Gbemisola Douglas",
+    "state": "Edo",
+    "lga": "Esan Central",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-222": {
+    "name": "Femi Wosu",
+    "state": "Nasarawa",
+    "lga": "Nasarawa Egon",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-223": {
+    "name": "Rahila Ezeife",
+    "state": "Delta",
+    "lga": "Burutu",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-224": {
+    "name": "Joshua Shehu",
+    "state": "Jigawa",
+    "lga": "Auyo",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-225": {
+    "name": "Blessing Abubakar",
+    "state": "Yobe",
+    "lga": "Damaturu",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-226": {
+    "name": "Chizaram Eneh",
+    "state": "Katsina",
+    "lga": "Dan Musa",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-227": {
+    "name": "Chibuokem Bamidele",
+    "state": "Katsina",
+    "lga": "Baure",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-228": {
+    "name": "Rashida Ibrahim",
+    "state": "Imo",
+    "lga": "Ihitte/Uboma",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-229": {
+    "name": "Mustapha Peterside",
+    "state": "Kano",
+    "lga": "Bichi",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-230": {
+    "name": "Adewunmi Tukur",
+    "state": "Abia",
+    "lga": "Ohafia",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-231": {
+    "name": "Rahila Oyinlola",
+    "state": "Kano",
+    "lga": "Bebeji",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-232": {
+    "name": "Hassan Olawale",
+    "state": "Ekiti",
+    "lga": "Ikere",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-233": {
+    "name": "Kelechi Dasuki",
+    "state": "Benue",
+    "lga": "Ado",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-234": {
+    "name": "Nkemsinachi Igwe",
+    "state": "Lagos",
+    "lga": "Alimosho",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-235": {
+    "name": "Hope Onyekachi",
+    "state": "Ogun",
+    "lga": "Ado-Odo/Ota",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-236": {
+    "name": "Ifeoma Makinde",
+    "state": "Yobe",
+    "lga": "Geidam",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-237": {
+    "name": "Rakiya Ezeife",
+    "state": "Kaduna",
+    "lga": "Giwa",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-238": {
+    "name": "Rashida Lam-Adesina",
+    "state": "Kano",
+    "lga": "Bunkure",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-239": {
+    "name": "Chidera Mbah",
+    "state": "Delta",
+    "lga": "Burutu",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-240": {
+    "name": "Oluwaseun Musa",
+    "state": "Niger",
+    "lga": "Agaie",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-241": {
+    "name": "Ifechukwu Garba",
+    "state": "Oyo",
+    "lga": "Ibadan North",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-242": {
+    "name": "Oluwaseyi Aregbesola",
+    "state": "Lagos",
+    "lga": "Ajeromi-Ifelodun",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-243": {
+    "name": "Salisu Nwosu",
+    "state": "Zamfara",
+    "lga": "Chafe",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-244": {
+    "name": "Adeyemi Ribadu",
+    "state": "Bauchi",
+    "lga": "Giade",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-245": {
+    "name": "Kehinde Abdullahi",
+    "state": "Cross River",
+    "lga": "Abi",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-246": {
+    "name": "Peace Ogunbodede",
+    "state": "Borno",
+    "lga": "Askira/Uba",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-247": {
+    "name": "Ifechukwu Bello",
+    "state": "Nasarawa",
+    "lga": "Lafia",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-248": {
+    "name": "Ifechi Mustapha",
+    "state": "Delta",
+    "lga": "Ika North East",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-249": {
+    "name": "Ramatu Wosu",
+    "state": "Ogun",
+    "lga": "Egbado South",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-250": {
+    "name": "Oluwafemi Olanrewaju",
+    "state": "Osun",
+    "lga": "Ede South",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-251": {
+    "name": "Babatunde Usman",
+    "state": "Lagos",
+    "lga": "Ibeju-Lekki",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-252": {
+    "name": "Hauwa Tijani",
+    "state": "Kaduna",
+    "lga": "Igabi",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-253": {
+    "name": "Chibuokem Musa",
+    "state": "Enugu",
+    "lga": "Isi Uzo",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-254": {
+    "name": "Ibrahim Makinde",
+    "state": "Kogi",
+    "lga": "Bassa",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-255": {
+    "name": "Kehinde Nnaji",
+    "state": "Zamfara",
+    "lga": "Bukkuyum",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-256": {
+    "name": "Adeola Ajibola",
+    "state": "Gombe",
+    "lga": "Gombe",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-257": {
+    "name": "Emeka Tukur",
+    "state": "Delta",
+    "lga": "Bomadi",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-258": {
+    "name": "Daniel Rasaq",
+    "state": "Edo",
+    "lga": "Egor",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-259": {
+    "name": "Ifeoma Okonkwo",
+    "state": "Kwara",
+    "lga": "Ekiti",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-260": {
+    "name": "Adaobi Eze",
+    "state": "Edo",
+    "lga": "Esan South East",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-261": {
+    "name": "Uzoma Aigbokhan",
+    "state": "Ogun",
+    "lga": "Ijebu North",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-262": {
+    "name": "Zainab Ogundele",
+    "state": "Osun",
+    "lga": "Boripe",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-263": {
+    "name": "Wale Imam",
+    "state": "Sokoto",
+    "lga": "Gada",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-264": {
+    "name": "Musa Orbih",
+    "state": "Taraba",
+    "lga": "Gassol",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-265": {
+    "name": "Chioma Anozie",
+    "state": "Plateau",
+    "lga": "Kanam",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-266": {
+    "name": "Wale Ogunwale",
+    "state": "Osun",
+    "lga": "Atakumosa West",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-267": {
+    "name": "Adaobi Isokariari",
+    "state": "Delta",
+    "lga": "Aniocha South",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-268": {
+    "name": "Patience Obasi",
+    "state": "Zamfara",
+    "lga": "Chafe",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-269": {
+    "name": "Ifunanya Maigari",
+    "state": "Oyo",
+    "lga": "Ibadan South East",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-270": {
+    "name": "Nkemdirim Usman",
+    "state": "Borno",
+    "lga": "Gubio",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-271": {
+    "name": "Nkemdirim Imam",
+    "state": "Gombe",
+    "lga": "Kaltungo",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-272": {
+    "name": "Chibuokem Salami",
+    "state": "Ogun",
+    "lga": "Abeokuta South",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-273": {
+    "name": "Omobolanle Nwachukwu",
+    "state": "Jigawa",
+    "lga": "Dutse",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-274": {
+    "name": "Salihu Nnaji",
+    "state": "Bayelsa",
+    "lga": "Ekeremor",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-275": {
+    "name": "Nkemdirim Usman",
+    "state": "Lagos",
+    "lga": "Alimosho",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-276": {
+    "name": "Hauwa Eze",
+    "state": "Zamfara",
+    "lga": "Kaura Namoda",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-277": {
+    "name": "Obiora Lawal",
+    "state": "Kwara",
+    "lga": "Ilorin South",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-278": {
+    "name": "Blessing Diri",
+    "state": "Katsina",
+    "lga": "Charanchi",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-279": {
+    "name": "Rahinatu Olanrewaju",
+    "state": "Delta",
+    "lga": "Ika South",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-280": {
+    "name": "Wale Eneh",
+    "state": "Zamfara",
+    "lga": "Chafe",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-281": {
+    "name": "Grace Peterside",
+    "state": "Gombe",
+    "lga": "Kaltungo",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-282": {
+    "name": "Ngozi Isokariari",
+    "state": "Kaduna",
+    "lga": "Birnin Gwari",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-283": {
+    "name": "Mark Bindow",
+    "state": "Katsina",
+    "lga": "Charanchi",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-284": {
+    "name": "Chidi Bakare",
+    "state": "Delta",
+    "lga": "Isoko South",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-285": {
+    "name": "Halima Aliyu",
+    "state": "Adamawa",
+    "lga": "Fufore",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-286": {
+    "name": "Adeola Okeke",
+    "state": "Ogun",
+    "lga": "Ijebu East",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-287": {
+    "name": "Abdullahi Onah",
+    "state": "Katsina",
+    "lga": "Charanchi",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-288": {
+    "name": "Biodun Ngige",
+    "state": "Anambra",
+    "lga": "Awka South",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-289": {
+    "name": "Ibrahim Abubakar",
+    "state": "Bayelsa",
+    "lga": "Ogbia",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-290": {
+    "name": "Omolola Ogunwale",
+    "state": "Osun",
+    "lga": "Ede North",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-291": {
+    "name": "Adeola Esele",
+    "state": "Sokoto",
+    "lga": "Bodinga",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-292": {
+    "name": "Nkemdirim Abdullahi",
+    "state": "Kano",
+    "lga": "Dawakin Tofa",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-293": {
+    "name": "Ify Yar'adua",
+    "state": "Katsina",
+    "lga": "Bakori",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-294": {
+    "name": "Adewunmi Diri",
+    "state": "Anambra",
+    "lga": "Aguata",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-295": {
+    "name": "Peace Olanrewaju",
+    "state": "Cross River",
+    "lga": "Bekwarra",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-296": {
+    "name": "Chinwe Garba",
+    "state": "Abia",
+    "lga": "Isuikwuato",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-297": {
+    "name": "Sani Sani",
+    "state": "Nasarawa",
+    "lga": "Nasarawa",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-298": {
+    "name": "Rakiya Briggs",
+    "state": "Kwara",
+    "lga": "Baruten",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-299": {
+    "name": "Bello Hussaini",
+    "state": "Adamawa",
+    "lga": "Jada",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-300": {
+    "name": "Precious Peterside",
+    "state": "Ondo",
+    "lga": "Ilaje",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-301": {
+    "name": "Omolara Maigari",
+    "state": "Borno",
+    "lga": "Damboa",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-302": {
+    "name": "Chinwe Ogunleye",
+    "state": "Oyo",
+    "lga": "Ibadan North",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-303": {
+    "name": "Nkemjika Bamidele",
+    "state": "Benue",
+    "lga": "Buruku",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-304": {
+    "name": "Adewumi Ogunyele",
+    "state": "Bayelsa",
+    "lga": "Southern Ijaw",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-305": {
+    "name": "Ebele Olawale",
+    "state": "Kogi",
+    "lga": "Ankpa",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-306": {
+    "name": "Ifeanyi Sambo",
+    "state": "Borno",
+    "lga": "Gubio",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-307": {
+    "name": "Nuhu Achebe",
+    "state": "Kwara",
+    "lga": "Ilorin East",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-308": {
+    "name": "Sunday Ibrahim",
+    "state": "Delta",
+    "lga": "Ethiope East",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-309": {
+    "name": "Sani Isokariari",
+    "state": "Delta",
+    "lga": "Aniocha South",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-310": {
+    "name": "Rabiu Babangida",
+    "state": "FCT",
+    "lga": "Kwali",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-311": {
+    "name": "Adaobi Soludo",
+    "state": "Kebbi",
+    "lga": "Argungu",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-312": {
+    "name": "Halima Ogundele",
+    "state": "Osun",
+    "lga": "Boluwaduro",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-313": {
+    "name": "Aisha Ani",
+    "state": "Sokoto",
+    "lga": "Bodinga",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-314": {
+    "name": "Chibuzor Imam",
+    "state": "Akwa Ibom",
+    "lga": "Abak",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-315": {
+    "name": "Blessing Mbah",
+    "state": "Bayelsa",
+    "lga": "Southern Ijaw",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-316": {
+    "name": "Bello Imam",
+    "state": "FCT",
+    "lga": "Municipal Area Council",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-317": {
+    "name": "Adaobi Isokariari",
+    "state": "Plateau",
+    "lga": "Langtang North",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-318": {
+    "name": "Hauwa Imam",
+    "state": "Benue",
+    "lga": "Guma",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-319": {
+    "name": "Rahinatu Ribadu",
+    "state": "Edo",
+    "lga": "Akoko-Edo",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-320": {
+    "name": "Nkemsinachi Suleiman",
+    "state": "Taraba",
+    "lga": "Kumi",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-321": {
+    "name": "Abdullahi Asogwa",
+    "state": "Lagos",
+    "lga": "Apapa",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-322": {
+    "name": "Kehinde Okpebholo",
+    "state": "Kogi",
+    "lga": "Kabba/Bunu",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-323": {
+    "name": "Adaora Nnaji",
+    "state": "Kogi",
+    "lga": "Ajaokuta",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-324": {
+    "name": "Oluwatimilehin Dikko",
+    "state": "Jigawa",
+    "lga": "Guri",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-325": {
+    "name": "Adaora Abubakar",
+    "state": "Delta",
+    "lga": "Ethiope West",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-326": {
+    "name": "Ayodele Sani",
+    "state": "Bayelsa",
+    "lga": "Ogbia",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-327": {
+    "name": "Oluwabunmi Ribadu",
+    "state": "Kogi",
+    "lga": "Ankpa",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-328": {
+    "name": "Funmi Ribadu",
+    "state": "Ondo",
+    "lga": "Ifedore",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-329": {
+    "name": "Yemi Asogwa",
+    "state": "Katsina",
+    "lga": "Batsari",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-330": {
+    "name": "Ogochukwu Ero",
+    "state": "Rivers",
+    "lga": "Akuku-Toru",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-331": {
+    "name": "Kelechi Yusuf",
+    "state": "Bauchi",
+    "lga": "Darazo",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-332": {
+    "name": "Rahinatu Ero",
+    "state": "Yobe",
+    "lga": "Jakusko",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-333": {
+    "name": "Ebele Chukwuemeka",
+    "state": "Cross River",
+    "lga": "Etung",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-334": {
+    "name": "Obi Adeyemi",
+    "state": "Edo",
+    "lga": "Igueben",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-335": {
+    "name": "Nkemsinachi Obi",
+    "state": "Ogun",
+    "lga": "Ewekoro",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-336": {
+    "name": "Chizaram Wosu",
+    "state": "Kano",
+    "lga": "Dambatta",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-337": {
+    "name": "Ifenna Dankwa",
+    "state": "Katsina",
+    "lga": "Dandume",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-338": {
+    "name": "Oluwafemi Abubakar",
+    "state": "FCT",
+    "lga": "Kuje",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-339": {
+    "name": "Mercy Okpebholo",
+    "state": "Nasarawa",
+    "lga": "Nasarawa",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-340": {
+    "name": "Omolade Adeyemi",
+    "state": "Ekiti",
+    "lga": "Ikere",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-341": {
+    "name": "Daniel Chukwu",
+    "state": "Plateau",
+    "lga": "Jos South",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-342": {
+    "name": "Seun Ize-Iyamu",
+    "state": "Taraba",
+    "lga": "Bali",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-343": {
+    "name": "Biodun Akin-George",
+    "state": "Ebonyi",
+    "lga": "Ezza South",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-344": {
+    "name": "Ifeoluwa Aliyu",
+    "state": "Ondo",
+    "lga": "Akoko North West",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-345": {
+    "name": "Chibuike Ngige",
+    "state": "Kwara",
+    "lga": "Asa",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-346": {
+    "name": "Fatima Tijani",
+    "state": "Sokoto",
+    "lga": "Gudu",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-347": {
+    "name": "Oluwatimilehin Abubakar",
+    "state": "Lagos",
+    "lga": "Amuwo-Odofin",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-348": {
+    "name": "Chiamaka Peter",
+    "state": "Benue",
+    "lga": "Guma",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-349": {
+    "name": "Kelechi Igwe",
+    "state": "Kano",
+    "lga": "Dambatta",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-350": {
+    "name": "Salisu Imam",
+    "state": "Abia",
+    "lga": "Aba South",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-351": {
+    "name": "Joshua Olanrewaju",
+    "state": "Delta",
+    "lga": "Isoko North",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-352": {
+    "name": "Ifunanya Hassan",
+    "state": "Borno",
+    "lga": "Biu",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-353": {
+    "name": "Peace Garba",
+    "state": "Anambra",
+    "lga": "Ayamelum",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-354": {
+    "name": "Chibundo Nnaji",
+    "state": "Borno",
+    "lga": "Dikwa",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-355": {
+    "name": "Ifechukwu Eze",
+    "state": "Sokoto",
+    "lga": "Kebbe",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-356": {
+    "name": "Uchenna Maigari",
+    "state": "Ondo",
+    "lga": "Akoko North East",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-357": {
+    "name": "Hassan Dankwa",
+    "state": "FCT",
+    "lga": "Kuje",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-358": {
+    "name": "Biodun Ogunyele",
+    "state": "Lagos",
+    "lga": "Ajeromi-Ifelodun",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-359": {
+    "name": "Ifedayo Ogunyemi",
+    "state": "Sokoto",
+    "lga": "Isa",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-360": {
+    "name": "Oluwafunmilayo Obiano",
+    "state": "Plateau",
+    "lga": "Barkin Ladi",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-361": {
+    "name": "Oluwakemi Yakubu",
+    "state": "Adamawa",
+    "lga": "Guyuk",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-362": {
+    "name": "Chinyere Dankwa",
+    "state": "Benue",
+    "lga": "Konshisha",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-363": {
+    "name": "Obinna Obi",
+    "state": "Kwara",
+    "lga": "Irepodun",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-364": {
+    "name": "Sani Oyinlola",
+    "state": "Oyo",
+    "lga": "Ibadan North West",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-365": {
+    "name": "Obinna Nnaji",
+    "state": "Oyo",
+    "lga": "Afijio",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-366": {
+    "name": "Taiwo Obi",
+    "state": "Ekiti",
+    "lga": "Ado Ekiti",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-367": {
+    "name": "Goodness Ogunlade",
+    "state": "Niger",
+    "lga": "Gurara",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-368": {
+    "name": "Daniel Igwe",
+    "state": "Ekiti",
+    "lga": "Ekiti West",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-369": {
+    "name": "Ibrahim Soludo",
+    "state": "Kogi",
+    "lga": "Dekina",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-370": {
+    "name": "Oluwafemi Hussaini",
+    "state": "Niger",
+    "lga": "Gbako",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-371": {
+    "name": "Ebele Bakare",
+    "state": "Rivers",
+    "lga": "Degema",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-372": {
+    "name": "Ifeoluseun Shagari",
+    "state": "Bayelsa",
+    "lga": "Southern Ijaw",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-373": {
+    "name": "Nkemdirim Isokariari",
+    "state": "Edo",
+    "lga": "Etsako West",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-374": {
+    "name": "Adaobi Ibrahim",
+    "state": "Bayelsa",
+    "lga": "Sagbama",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-375": {
+    "name": "Love Imam",
+    "state": "Ondo",
+    "lga": "Akoko South Akure East",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-376": {
+    "name": "Oluchi Imam",
+    "state": "Akwa Ibom",
+    "lga": "Etim Ekpo",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-377": {
+    "name": "Nkemjika Tukur",
+    "state": "Anambra",
+    "lga": "Awka North",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-378": {
+    "name": "Oluwaseun Ogunlade",
+    "state": "Ebonyi",
+    "lga": "Abakaliki",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-379": {
+    "name": "Nkemsinachi Igwe",
+    "state": "Cross River",
+    "lga": "Akamkpa",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-380": {
+    "name": "Oluwaseun Asogwa",
+    "state": "Nasarawa",
+    "lga": "Nasarawa Egon",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-381": {
+    "name": "Obi Abubakar",
+    "state": "Osun",
+    "lga": "Boripe",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-382": {
+    "name": "Chizaram Akin-George",
+    "state": "Bauchi",
+    "lga": "Jama'are",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-383": {
+    "name": "Ifunanya Asogwa",
+    "state": "Niger",
+    "lga": "Chanchaga",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-384": {
+    "name": "Samuel Abdullahi",
+    "state": "Adamawa",
+    "lga": "Ganye",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-385": {
+    "name": "Ifeoluseun Ogbu",
+    "state": "Zamfara",
+    "lga": "Bakura",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-386": {
+    "name": "David Obaseki",
+    "state": "Osun",
+    "lga": "Ayedire",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-387": {
+    "name": "Blessing Tambuwal",
+    "state": "Rivers",
+    "lga": "Akuku-Toru",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-388": {
+    "name": "Obinna Fayemi",
+    "state": "Bauchi",
+    "lga": "Giade",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-389": {
+    "name": "Chizaram Musa",
+    "state": "Kebbi",
+    "lga": "Birnin Kebbi",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-390": {
+    "name": "Ifechi Maigari",
+    "state": "Katsina",
+    "lga": "Batsari",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-391": {
+    "name": "Babatunde Ogunlade",
+    "state": "Gombe",
+    "lga": "Balanga",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-392": {
+    "name": "Kelechi Dankwa",
+    "state": "Rivers",
+    "lga": "Abua/Odual",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-393": {
+    "name": "Oluwafemi Babangida",
+    "state": "Zamfara",
+    "lga": "Birnin Magaji/Kiyaw",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-394": {
+    "name": "Rotimi Nnaji",
+    "state": "Katsina",
+    "lga": "Dan Musa",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-395": {
+    "name": "Ify Lawal",
+    "state": "Ogun",
+    "lga": "Ijebu North East",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-396": {
+    "name": "Uzoma Nwachukwu",
+    "state": "Bauchi",
+    "lga": "Giade",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-397": {
+    "name": "Ifeoluseun Eneh",
+    "state": "Cross River",
+    "lga": "Calabar South",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-398": {
+    "name": "Bala Ero",
+    "state": "Cross River",
+    "lga": "Boki",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-399": {
+    "name": "Aisha Oyinlola",
+    "state": "Borno",
+    "lga": "Gubio",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-400": {
+    "name": "Peace Ogunleye",
+    "state": "Ebonyi",
+    "lga": "Ikwo",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-401": {
+    "name": "Chinyere Ogunsanya",
+    "state": "Kano",
+    "lga": "Albasu",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-402": {
+    "name": "Dare Sambo",
+    "state": "Zamfara",
+    "lga": "Bungudu",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-403": {
+    "name": "Peace Wosu",
+    "state": "Yobe",
+    "lga": "Bursari",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-404": {
+    "name": "Garba Eze",
+    "state": "Delta",
+    "lga": "Bomadi",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-405": {
+    "name": "Ebele Adebayo",
+    "state": "FCT",
+    "lga": "Abaji",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-406": {
+    "name": "Femi Obi",
+    "state": "FCT",
+    "lga": "Gwagwalada",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-407": {
+    "name": "Omolara Obasi",
+    "state": "Adamawa",
+    "lga": "Jada",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-408": {
+    "name": "Faith Ribadu",
+    "state": "Katsina",
+    "lga": "Dandume",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-409": {
+    "name": "Taiwo Buba",
+    "state": "Oyo",
+    "lga": "Akinyele",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-410": {
+    "name": "Abdullahi Suleiman",
+    "state": "Ogun",
+    "lga": "Ijebu East",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-411": {
+    "name": "Kehinde Ugwu",
+    "state": "Delta",
+    "lga": "Ethiope West",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-412": {
+    "name": "Chinyere Salami",
+    "state": "Cross River",
+    "lga": "Biase",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-413": {
+    "name": "Wale Nwachukwu",
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-414": {
+    "name": "Luke Imam",
+    "state": "Imo",
+    "lga": "Ehime Mbano",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-415": {
+    "name": "Ibrahim Maigari",
+    "state": "Nasarawa",
+    "lga": "Nasarawa Egon",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-416": {
+    "name": "Samuel Soludo",
+    "state": "Ebonyi",
+    "lga": "Ikwo",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-417": {
+    "name": "Precious Adeleke",
+    "state": "Ebonyi",
+    "lga": "Ivo",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-418": {
+    "name": "Chidera Ogunbodede",
+    "state": "Katsina",
+    "lga": "Dandume",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-419": {
+    "name": "Funmi Tijani",
+    "state": "Sokoto",
+    "lga": "Illela",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-420": {
+    "name": "Adeola Cookey",
+    "state": "Kwara",
+    "lga": "Asa",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-421": {
+    "name": "Mercy Ogunbodede",
+    "state": "Plateau",
+    "lga": "Jos North",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-422": {
+    "name": "Tunde Bamidele",
+    "state": "Benue",
+    "lga": "Gwer East",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-423": {
+    "name": "Matthew Orbih",
+    "state": "Lagos",
+    "lga": "Epe",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-424": {
+    "name": "Musa Salami",
+    "state": "Anambra",
+    "lga": "Njikoka",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-425": {
+    "name": "Nuhu Asogwa",
+    "state": "Zamfara",
+    "lga": "Bungudu",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-426": {
+    "name": "Oluwatimilehin Ogunyemi",
+    "state": "Osun",
+    "lga": "Egbedore",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-427": {
+    "name": "Chukwu Sani",
+    "state": "Benue",
+    "lga": "Gwer East",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-428": {
+    "name": "Ebele Briggs",
+    "state": "Lagos",
+    "lga": "Alimosho",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-429": {
+    "name": "Ifeanyi Salami",
+    "state": "Sokoto",
+    "lga": "Binji",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-430": {
+    "name": "Adaeze Bello",
+    "state": "Kogi",
+    "lga": "Igalamela/Odolu",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-431": {
+    "name": "Chibuokem Yusuf",
+    "state": "Sokoto",
+    "lga": "Dange Shuni",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-432": {
+    "name": "Chiamaka Adeyemi",
+    "state": "Niger",
+    "lga": "Katcha",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-433": {
+    "name": "Ebele Ogunyemi",
+    "state": "Sokoto",
+    "lga": "Isa",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-434": {
+    "name": "Joy Ogundele",
+    "state": "Adamawa",
+    "lga": "Guyuk",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-435": {
+    "name": "Gbenga Mustapha",
+    "state": "Katsina",
+    "lga": "Bakori",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-436": {
+    "name": "Salihu Lawan",
+    "state": "FCT",
+    "lga": "Bwari",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-437": {
+    "name": "Saliha Ogunleye",
+    "state": "Taraba",
+    "lga": "Lau",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-438": {
+    "name": "Chijioke Aregbesola",
+    "state": "Imo",
+    "lga": "Aboh Mbaise",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-439": {
+    "name": "Gbenga Adeleke",
+    "state": "Adamawa",
+    "lga": "Jada",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-440": {
+    "name": "Omolade Yusuf",
+    "state": "Ogun",
+    "lga": "Egbado North",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-441": {
+    "name": "Rakiya Okpebholo",
+    "state": "Plateau",
+    "lga": "Barkin Ladi",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-442": {
+    "name": "Ifeoluseun Adesanya",
+    "state": "Zamfara",
+    "lga": "Chafe",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-443": {
+    "name": "Ify Okeke",
+    "state": "Kebbi",
+    "lga": "Argungu",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-444": {
+    "name": "Ifenna Ugwu",
+    "state": "Yobe",
+    "lga": "Geidam",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-445": {
+    "name": "Rashida Adeleke",
+    "state": "Imo",
+    "lga": "Ideato North",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-446": {
+    "name": "Joy Olawale",
+    "state": "Katsina",
+    "lga": "Bindawa",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-447": {
+    "name": "Ramatu Nwachukwu",
+    "state": "Plateau",
+    "lga": "Jos South",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-448": {
+    "name": "Patience Dikko",
+    "state": "Borno",
+    "lga": "Guzamala",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-449": {
+    "name": "Oluwaseyi Mbadinuju",
+    "state": "Niger",
+    "lga": "Chanchaga",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-450": {
+    "name": "Faith Obi",
+    "state": "Kano",
+    "lga": "Albasu",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-451": {
+    "name": "Chizaram Ciroma",
+    "state": "Jigawa",
+    "lga": "Garki",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-452": {
+    "name": "Taiwo Aregbesola",
+    "state": "Yobe",
+    "lga": "Fune",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-453": {
+    "name": "Mark Bello",
+    "state": "Benue",
+    "lga": "Konshisha",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-454": {
+    "name": "Monday Tanko",
+    "state": "Anambra",
+    "lga": "Ihiala",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-455": {
+    "name": "Adekunle Chukwu",
+    "state": "Benue",
+    "lga": "Gwer East",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-456": {
+    "name": "Salisu Usman",
+    "state": "Cross River",
+    "lga": "Abi",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-457": {
+    "name": "Abdullahi Lawal",
+    "state": "Plateau",
+    "lga": "Kanke",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-458": {
+    "name": "Blessing Onyekachi",
+    "state": "Kano",
+    "lga": "Ajingi",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-459": {
+    "name": "Adekunle Ogunremi",
+    "state": "Akwa Ibom",
+    "lga": "Eket",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-460": {
+    "name": "Aliyu Peter",
+    "state": "Akwa Ibom",
+    "lga": "Etinan",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-461": {
+    "name": "Kabiru Peter",
+    "state": "Kano",
+    "lga": "Ajingi",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-462": {
+    "name": "Joy Douglas",
+    "state": "Benue",
+    "lga": "Guma",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-463": {
+    "name": "Chibuokem Ribadu",
+    "state": "Yobe",
+    "lga": "Jakusko",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-464": {
+    "name": "Obinna Bamidele",
+    "state": "Sokoto",
+    "lga": "Illela",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-465": {
+    "name": "Nuhu Lam-Adesina",
+    "state": "Borno",
+    "lga": "Chibok",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-466": {
+    "name": "Chibundo Ribadu",
+    "state": "Jigawa",
+    "lga": "Birnin Kudu",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-467": {
+    "name": "Ebele Ajimobi",
+    "state": "Kano",
+    "lga": "Dawakin Tofa",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-468": {
+    "name": "Sani Wosu",
+    "state": "Niger",
+    "lga": "Edati",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-469": {
+    "name": "Chinwe Musa",
+    "state": "Niger",
+    "lga": "Agwara",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-470": {
+    "name": "Kelechi Ogundipe",
+    "state": "Kebbi",
+    "lga": "Augie",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-471": {
+    "name": "David Ogbu",
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-472": {
+    "name": "Nkechi Buba",
+    "state": "FCT",
+    "lga": "Abaji",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-473": {
+    "name": "Babatunde Tambuwal",
+    "state": "Imo",
+    "lga": "Aboh Mbaise",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-474": {
+    "name": "Chidera Waziri",
+    "state": "Ebonyi",
+    "lga": "Ishielu",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-475": {
+    "name": "Goodness Tambuwal",
+    "state": "Borno",
+    "lga": "Biu",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-476": {
+    "name": "Adeyemi Olawale",
+    "state": "Cross River",
+    "lga": "Calabar Municipal",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-477": {
+    "name": "Chibuokem Osagie",
+    "state": "Lagos",
+    "lga": "Epe",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-478": {
+    "name": "Salisu Esele",
+    "state": "Yobe",
+    "lga": "Fika",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-479": {
+    "name": "Femi Ogunyele",
+    "state": "Osun",
+    "lga": "Egbedore",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-480": {
+    "name": "Sadiya Okeke",
+    "state": "FCT",
+    "lga": "Abaji",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-481": {
+    "name": "Rahinatu Afolabi",
+    "state": "FCT",
+    "lga": "Kwali",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-482": {
+    "name": "Usman Onyekachi",
+    "state": "Taraba",
+    "lga": "Karim Lamido",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-483": {
+    "name": "Kehinde Ize-Iyamu",
+    "state": "Rivers",
+    "lga": "Ahoada East",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-484": {
+    "name": "Chibueze Lam-Adesina",
+    "state": "Anambra",
+    "lga": "Idemili South",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-485": {
+    "name": "Ifeoluwa Mustapha",
+    "state": "Oyo",
+    "lga": "Ibadan South West",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-486": {
+    "name": "Chibuzor Abubakar",
+    "state": "Katsina",
+    "lga": "Bakori",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-487": {
+    "name": "Joshua Ajibola",
+    "state": "Abia",
+    "lga": "Bende",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-488": {
+    "name": "Ramatu Obi",
+    "state": "Ondo",
+    "lga": "Akure South",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-489": {
+    "name": "Ifechi Anozie",
+    "state": "Bauchi",
+    "lga": "Giade",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-490": {
+    "name": "Blessing Lawal",
+    "state": "Edo",
+    "lga": "Esan Central",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-491": {
+    "name": "Oluwakemi Mbadinuju",
+    "state": "Nasarawa",
+    "lga": "Lafia",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-492": {
+    "name": "Oluwabunmi Abubakar",
+    "state": "Yobe",
+    "lga": "Damaturu",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-493": {
+    "name": "Chukwu Akinwande",
+    "state": "Yobe",
+    "lga": "Gujba",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-494": {
+    "name": "Uzoma Orbih",
+    "state": "Gombe",
+    "lga": "Akko",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-495": {
+    "name": "Joy Babangida",
+    "state": "Yobe",
+    "lga": "Gujba",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-496": {
+    "name": "Oluwaseyi Aregbesola",
+    "state": "Gombe",
+    "lga": "Dukku",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-497": {
+    "name": "Chinyere Yusuf",
+    "state": "Kaduna",
+    "lga": "Igabi",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-498": {
+    "name": "Amaka Lam-Adesina",
+    "state": "Ogun",
+    "lga": "Ijebu North East",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-499": {
+    "name": "Monday Adesanya",
+    "state": "Bauchi",
+    "lga": "Bauchi",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-500": {
+    "name": "Amaka Imam",
+    "state": "Anambra",
+    "lga": "Ayamelum",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-501": {
+    "name": "Adewumi Suleiman",
+    "state": "Gombe",
+    "lga": "Nafada",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-502": {
+    "name": "Aisha Bello",
+    "state": "Sokoto",
+    "lga": "Goronyo",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-503": {
+    "name": "Chiamaka Peterside",
+    "state": "Kebbi",
+    "lga": "Augie",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-504": {
+    "name": "Uchenna Gusau",
+    "state": "Taraba",
+    "lga": "Gashaka",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-505": {
+    "name": "Joy Tukur",
+    "state": "Anambra",
+    "lga": "Ihiala",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-506": {
+    "name": "Sani Dasuki",
+    "state": "Ondo",
+    "lga": "Ifedore",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-507": {
+    "name": "Ibrahim Eneh",
+    "state": "Nasarawa",
+    "lga": "Nasarawa",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-508": {
+    "name": "Omolara Lawal",
+    "state": "Delta",
+    "lga": "Ethiope East",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-509": {
+    "name": "Kabiru Esele",
+    "state": "Yobe",
+    "lga": "Gulani",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-510": {
+    "name": "Adebayo Buba",
+    "state": "Delta",
+    "lga": "Ika South",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-511": {
+    "name": "Gbemisola Mustapha",
+    "state": "Zamfara",
+    "lga": "Kaura Namoda",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-512": {
+    "name": "Oluwafunmilayo Tanko",
+    "state": "Jigawa",
+    "lga": "Birniwa",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-513": {
+    "name": "Femi Obi",
+    "state": "Osun",
+    "lga": "Boripe",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-514": {
+    "name": "Ifechukwu Shaibu",
+    "state": "Ekiti",
+    "lga": "Ado Ekiti",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-515": {
+    "name": "Oluwabunmi Abubakar",
+    "state": "Akwa Ibom",
+    "lga": "Eastern Obolo",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-516": {
+    "name": "Adeola Ogundipe",
+    "state": "Enugu",
+    "lga": "Ezeagu",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-517": {
+    "name": "Sola Olanrewaju",
+    "state": "Ekiti",
+    "lga": "Efon",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-518": {
+    "name": "Emmanuel Bindow",
+    "state": "Enugu",
+    "lga": "Igbo Etiti",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-519": {
+    "name": "Adaobi Okpebholo",
+    "state": "Kano",
+    "lga": "Dala",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-520": {
+    "name": "Ifenna Ciroma",
+    "state": "Kwara",
+    "lga": "Ifelodun",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-521": {
+    "name": "Babatunde Ogunlade",
+    "state": "Rivers",
+    "lga": "Degema",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-522": {
+    "name": "Salisu Akin-George",
+    "state": "Kebbi",
+    "lga": "Augie",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-523": {
+    "name": "Precious Lawal",
+    "state": "Akwa Ibom",
+    "lga": "Ibiono-Ibom",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-524": {
+    "name": "Chijioke Eze",
+    "state": "Jigawa",
+    "lga": "Gumel",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-525": {
+    "name": "Omolara Maigari",
+    "state": "Delta",
+    "lga": "Burutu",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-526": {
+    "name": "Adeniyi Okeke",
+    "state": "FCT",
+    "lga": "Bwari",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-527": {
+    "name": "Ebele Yakubu",
+    "state": "Rivers",
+    "lga": "Degema",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-528": {
+    "name": "Garba Orbih",
+    "state": "Kwara",
+    "lga": "Edu",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-529": {
+    "name": "Ifedayo Ogunwale",
+    "state": "Edo",
+    "lga": "Etsako West",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-530": {
+    "name": "Ify Igwe",
+    "state": "Bauchi",
+    "lga": "Alkaleri",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-531": {
+    "name": "Gbemisola Bello",
+    "state": "Gombe",
+    "lga": "Balanga",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-532": {
+    "name": "Tunde Olanrewaju",
+    "state": "Sokoto",
+    "lga": "Illela",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-533": {
+    "name": "Hauwa Obasi",
+    "state": "Plateau",
+    "lga": "Kanke",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-534": {
+    "name": "Chidi Ogunremi",
+    "state": "Zamfara",
+    "lga": "Gummi",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-535": {
+    "name": "Yemi Ogunyele",
+    "state": "Kaduna",
+    "lga": "Kaduna North",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-536": {
+    "name": "Yemi Ogunyemi",
+    "state": "Ondo",
+    "lga": "Akoko South Akure East",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-537": {
+    "name": "Bukola Ogunyele",
+    "state": "Delta",
+    "lga": "Burutu",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-538": {
+    "name": "Ify Yakubu",
+    "state": "Kwara",
+    "lga": "Ifelodun",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-539": {
+    "name": "Femi Onah",
+    "state": "Niger",
+    "lga": "Gbako",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-540": {
+    "name": "Emmanuel Bindow",
+    "state": "Gombe",
+    "lga": "Funakaye",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-541": {
+    "name": "Amaka Musa",
+    "state": "Niger",
+    "lga": "Edati",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-542": {
+    "name": "Salihu Anozie",
+    "state": "Abia",
+    "lga": "Arochukwu",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-543": {
+    "name": "Rahila Bamidele",
+    "state": "Ondo",
+    "lga": "Akure South",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-544": {
+    "name": "Bukola Mbadinuju",
+    "state": "Taraba",
+    "lga": "Ardo Kola",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-545": {
+    "name": "Segun Achebe",
+    "state": "FCT",
+    "lga": "Kuje",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-546": {
+    "name": "Musa Obi",
+    "state": "Bauchi",
+    "lga": "Darazo",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-547": {
+    "name": "Amaka Akinwande",
+    "state": "Kebbi",
+    "lga": "Aleiro",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-548": {
+    "name": "Uchenna Esele",
+    "state": "Niger",
+    "lga": "Agwara",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-549": {
+    "name": "Yahaya Douglas",
+    "state": "Imo",
+    "lga": "Isu",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-550": {
+    "name": "Ifechi Obiechina",
+    "state": "Nasarawa",
+    "lga": "Doma",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-551": {
+    "name": "Rakiya Osagie",
+    "state": "Kwara",
+    "lga": "Asa",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-552": {
+    "name": "Nkemjika Akinsanya",
+    "state": "Bauchi",
+    "lga": "Dass",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-553": {
+    "name": "Adewunmi Okpebholo",
+    "state": "Kebbi",
+    "lga": "Aleiro",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-554": {
+    "name": "Chibuike Ogunwale",
+    "state": "Gombe",
+    "lga": "Gombe",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-555": {
+    "name": "Oluwabunmi Hussaini",
+    "state": "Edo",
+    "lga": "Igueben",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-556": {
+    "name": "Biodun Ero",
+    "state": "Kano",
+    "lga": "Bebeji",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-557": {
+    "name": "Biodun Shagari",
+    "state": "Delta",
+    "lga": "Ika North East",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-558": {
+    "name": "Oluwafunmilayo Nwachukwu",
+    "state": "Lagos",
+    "lga": "Ajeromi-Ifelodun",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-559": {
+    "name": "Chidi Waziri",
+    "state": "Osun",
+    "lga": "Boripe",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-560": {
+    "name": "Seun Sani",
+    "state": "Bayelsa",
+    "lga": "Kolokuma/Opokuma",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-561": {
+    "name": "Chibueze Briggs",
+    "state": "Zamfara",
+    "lga": "Kaura Namoda",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-562": {
+    "name": "Seun Nwosu",
+    "state": "Bayelsa",
+    "lga": "Sagbama",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-563": {
+    "name": "Funmi Diri",
+    "state": "Kebbi",
+    "lga": "Bunza",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-564": {
+    "name": "Faith Lawal",
+    "state": "Nasarawa",
+    "lga": "Awe",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-565": {
+    "name": "Emmanuel Peterside",
+    "state": "Taraba",
+    "lga": "Donga",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-566": {
+    "name": "Garba Bello",
+    "state": "Kaduna",
+    "lga": "Ikara",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-567": {
+    "name": "Rabiu Aliyu",
+    "state": "Bauchi",
+    "lga": "Bogoro",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-568": {
+    "name": "Patience Mustapha",
+    "state": "Katsina",
+    "lga": "Dandume",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-569": {
+    "name": "Babatunde Yakubu",
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-570": {
+    "name": "Dare Shehu",
+    "state": "Benue",
+    "lga": "Apa",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-571": {
+    "name": "Chidi Tijani",
+    "state": "Kogi",
+    "lga": "Kabba/Bunu",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-572": {
+    "name": "Nkechi Suleiman",
+    "state": "Kogi",
+    "lga": "Idah",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-573": {
+    "name": "Obinna Buba",
+    "state": "Kebbi",
+    "lga": "Gwandu",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-574": {
+    "name": "Saliha Nwachukwu",
+    "state": "Edo",
+    "lga": "Etsako Central",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-575": {
+    "name": "Faith Aigbokhan",
+    "state": "Rivers",
+    "lga": "Emohua",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-576": {
+    "name": "Chinwe Okeke",
+    "state": "Kaduna",
+    "lga": "Jema'a",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-577": {
+    "name": "Dayo Peter",
+    "state": "FCT",
+    "lga": "Bwari",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-578": {
+    "name": "Ifedayo Bakare",
+    "state": "Zamfara",
+    "lga": "Anka",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-579": {
+    "name": "Adewale Suleiman",
+    "state": "Kano",
+    "lga": "Albasu",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-580": {
+    "name": "Rahila Bello",
+    "state": "Katsina",
+    "lga": "Baure",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-581": {
+    "name": "Obi Ize-Iyamu",
+    "state": "Ondo",
+    "lga": "Ese Odo",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-582": {
+    "name": "Chibueze Diri",
+    "state": "Plateau",
+    "lga": "Langtang South",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-583": {
+    "name": "Ifenna Ogunyemi",
+    "state": "Ogun",
+    "lga": "Ijebu North",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-584": {
+    "name": "Babatunde Bindow",
+    "state": "Yobe",
+    "lga": "Karasuwa",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-585": {
+    "name": "Wale Ero",
+    "state": "Imo",
+    "lga": "Ideato South",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-586": {
+    "name": "Musa Douglas",
+    "state": "Niger",
+    "lga": "Chanchaga",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-587": {
+    "name": "Wale Okonkwo",
+    "state": "Benue",
+    "lga": "Gboko",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-588": {
+    "name": "Ifeanyi Osagie",
+    "state": "Taraba",
+    "lga": "Kumi",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-589": {
+    "name": "Adeyemi Imam",
+    "state": "Lagos",
+    "lga": "Epe",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-590": {
+    "name": "Rakiya Yusuf",
+    "state": "Kwara",
+    "lga": "Asa",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-591": {
+    "name": "Seun Maigari",
+    "state": "Ogun",
+    "lga": "Abeokuta South",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-592": {
+    "name": "Uchenna Eneh",
+    "state": "Katsina",
+    "lga": "Charanchi",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-593": {
+    "name": "Kehinde Ogunsanya",
+    "state": "Plateau",
+    "lga": "Jos South",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-594": {
+    "name": "Bukola Suleiman",
+    "state": "Osun",
+    "lga": "Boripe",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-595": {
+    "name": "Joy Obi",
+    "state": "Borno",
+    "lga": "Abadam",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-596": {
+    "name": "Wale Abubakar",
+    "state": "Ebonyi",
+    "lga": "Ezza North",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-597": {
+    "name": "Sani Amadi",
+    "state": "Ebonyi",
+    "lga": "Ikwo",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-598": {
+    "name": "Omobolanle Babangida",
+    "state": "Gombe",
+    "lga": "Kaltungo",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-599": {
+    "name": "Kabiru Sambo",
+    "state": "Ondo",
+    "lga": "Ese Odo",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-600": {
+    "name": "Dare Imam",
+    "state": "Ondo",
+    "lga": "Ese Odo",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-601": {
+    "name": "Segun Adesanya",
+    "state": "Kaduna",
+    "lga": "Chikun",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-602": {
+    "name": "Seun Rasaq",
+    "state": "Yobe",
+    "lga": "Damaturu",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-603": {
+    "name": "Chinwe Afolabi",
+    "state": "Oyo",
+    "lga": "Akinyele",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-604": {
+    "name": "Ramatu Ogunyele",
+    "state": "Kebbi",
+    "lga": "Gwandu",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-605": {
+    "name": "Ayodele Eze",
+    "state": "Borno",
+    "lga": "Chibok",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-606": {
+    "name": "Chibundo Obasi",
+    "state": "Edo",
+    "lga": "Esan South East",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-607": {
+    "name": "Biodun Abubakar",
+    "state": "Cross River",
+    "lga": "Biase",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-608": {
+    "name": "Monday Waziri",
+    "state": "Borno",
+    "lga": "Bama",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-609": {
+    "name": "Uchenna Ogunlade",
+    "state": "Nasarawa",
+    "lga": "Kokona",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-610": {
+    "name": "Kelechi Peterside",
+    "state": "Nasarawa",
+    "lga": "Kokona",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-611": {
+    "name": "Ramat Sambo",
+    "state": "Yobe",
+    "lga": "Damaturu",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-612": {
+    "name": "Usman Ogunwale",
+    "state": "Kano",
+    "lga": "Bagwai",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-613": {
+    "name": "Precious Adebayo",
+    "state": "Osun",
+    "lga": "Ejigbo",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-614": {
+    "name": "Mustapha Okonkwo",
+    "state": "Rivers",
+    "lga": "Ahoada West",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-615": {
+    "name": "Oluwatimilehin Briggs",
+    "state": "Sokoto",
+    "lga": "Illela",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-616": {
+    "name": "Ramatu Mustapha",
+    "state": "Osun",
+    "lga": "Ede South",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-617": {
+    "name": "Biodun Douglas",
+    "state": "Adamawa",
+    "lga": "Girei",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-618": {
+    "name": "Amaka Tukur",
+    "state": "Gombe",
+    "lga": "Nafada",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-619": {
+    "name": "Garba Okpebholo",
+    "state": "Oyo",
+    "lga": "Ibadan South West",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-620": {
+    "name": "Ifeanyi Abdullahi",
+    "state": "FCT",
+    "lga": "Abaji",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-621": {
+    "name": "Ifedayo Aregbesola",
+    "state": "Lagos",
+    "lga": "Ibeju-Lekki",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-622": {
+    "name": "Nkemsinachi Oguntayo",
+    "state": "Enugu",
+    "lga": "Igbo Etiti",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-623": {
+    "name": "Samuel Buba",
+    "state": "Akwa Ibom",
+    "lga": "Ibeno",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-624": {
+    "name": "Oluchi Soludo",
+    "state": "Bayelsa",
+    "lga": "Yenagoa",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-625": {
+    "name": "Sunday Adesanya",
+    "state": "Kwara",
+    "lga": "Isin",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-626": {
+    "name": "Usman Wosu",
+    "state": "Cross River",
+    "lga": "Bakassi",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-627": {
+    "name": "Hauwa Douglas",
+    "state": "Kwara",
+    "lga": "Irepodun",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-628": {
+    "name": "Ifechukwu Ogunleye",
+    "state": "Kebbi",
+    "lga": "Bagudo",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-629": {
+    "name": "Luke Fayemi",
+    "state": "Sokoto",
+    "lga": "Bodinga",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-630": {
+    "name": "Gbemisola Okeke",
+    "state": "Anambra",
+    "lga": "Dunukofia",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-631": {
+    "name": "Ifeoma Tanko",
+    "state": "Delta",
+    "lga": "Ethiope West",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-632": {
+    "name": "Ayodele Ogunwale",
+    "state": "Delta",
+    "lga": "Isoko South",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-633": {
+    "name": "Omolara Okeke",
+    "state": "Osun",
+    "lga": "Atakumosa West",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-634": {
+    "name": "Taiwo Ogunlade",
+    "state": "Kaduna",
+    "lga": "Jaba",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-635": {
+    "name": "Ramat Onyekachi",
+    "state": "Abia",
+    "lga": "Aba South",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-636": {
+    "name": "Mustapha Bamidele",
+    "state": "Bauchi",
+    "lga": "Itas/Gadau",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-637": {
+    "name": "Adeola Hassan",
+    "state": "Enugu",
+    "lga": "Igbo Eze North",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-638": {
+    "name": "Adaobi Oyinlola",
+    "state": "Kano",
+    "lga": "Bunkure",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-639": {
+    "name": "Ifeoma Douglas",
+    "state": "Rivers",
+    "lga": "Asari-Toru",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-640": {
+    "name": "Musa Usman",
+    "state": "Oyo",
+    "lga": "Afijio",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-641": {
+    "name": "Abdullahi Suleiman",
+    "state": "Oyo",
+    "lga": "Afijio",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-642": {
+    "name": "Taiwo Tambuwal",
+    "state": "Cross River",
+    "lga": "Bekwarra",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-643": {
+    "name": "Patience Musa",
+    "state": "Lagos",
+    "lga": "Apapa",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-644": {
+    "name": "Oluwakemi Yar'adua",
+    "state": "Ebonyi",
+    "lga": "Abakaliki",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-645": {
+    "name": "Love Shaibu",
+    "state": "Gombe",
+    "lga": "Kaltungo",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-646": {
+    "name": "Bukola Okafor",
+    "state": "Enugu",
+    "lga": "Igbo Eze North",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-647": {
+    "name": "Ifeoma Eze",
+    "state": "Gombe",
+    "lga": "Nafada",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-648": {
+    "name": "Tunde Okonkwo",
+    "state": "Kogi",
+    "lga": "Ajaokuta",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-649": {
+    "name": "Ifeoma Ogundipe",
+    "state": "Bauchi",
+    "lga": "Damban",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-650": {
+    "name": "Rotimi Orbih",
+    "state": "Benue",
+    "lga": "Agatu",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-651": {
+    "name": "Oluwafemi Chukwuemeka",
+    "state": "Katsina",
+    "lga": "Batsari",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-652": {
+    "name": "Obinna Ribadu",
+    "state": "Delta",
+    "lga": "Aniocha South",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-653": {
+    "name": "Tunde Wosu",
+    "state": "Ebonyi",
+    "lga": "Ivo",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-654": {
+    "name": "Segun Dasuki",
+    "state": "Delta",
+    "lga": "Ika North East",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-655": {
+    "name": "Chizaram Soludo",
+    "state": "Enugu",
+    "lga": "Awgu",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-656": {
+    "name": "Kelechi Esele",
+    "state": "Borno",
+    "lga": "Guzamala",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-657": {
+    "name": "Oluchi Hassan",
+    "state": "Kebbi",
+    "lga": "Argungu",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-658": {
+    "name": "Patience Ribadu",
+    "state": "Bayelsa",
+    "lga": "Nembe",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-659": {
+    "name": "Mercy Okpebholo",
+    "state": "Adamawa",
+    "lga": "Gombi",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-660": {
+    "name": "Ifeoluseun Isokariari",
+    "state": "Sokoto",
+    "lga": "Gada",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-661": {
+    "name": "Hope Ribadu",
+    "state": "Anambra",
+    "lga": "Ayamelum",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-662": {
+    "name": "Oluwatimilehin Abdullahi",
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-663": {
+    "name": "Ramatu Ogunyele",
+    "state": "Abia",
+    "lga": "Isiala Ngwa North",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-664": {
+    "name": "Ifeoma Ogbu",
+    "state": "FCT",
+    "lga": "Kuje",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-665": {
+    "name": "Ifedayo Kwankwaso",
+    "state": "Edo",
+    "lga": "Etsako East",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-666": {
+    "name": "Yemi Eze",
+    "state": "Bauchi",
+    "lga": "Alkaleri",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-667": {
+    "name": "Adeola Obi",
+    "state": "Anambra",
+    "lga": "Idemili North",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-668": {
+    "name": "Blessing Dasuki",
+    "state": "Sokoto",
+    "lga": "Gwadabawa",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-669": {
+    "name": "Adewumi Abubakar",
+    "state": "Yobe",
+    "lga": "Jakusko",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-670": {
+    "name": "Obi Tukur",
+    "state": "Bayelsa",
+    "lga": "Ogbia",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-671": {
+    "name": "Ifeanyi Okeke",
+    "state": "Enugu",
+    "lga": "Enugu East",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-672": {
+    "name": "Chinwe Tijani",
+    "state": "Bauchi",
+    "lga": "Darazo",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-673": {
+    "name": "Monday Anozie",
+    "state": "Imo",
+    "lga": "Ahiazu Mbaise",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-674": {
+    "name": "Dayo Shehu",
+    "state": "Anambra",
+    "lga": "Dunukofia",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-675": {
+    "name": "Chukwu Okonkwo",
+    "state": "Cross River",
+    "lga": "Abi",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-676": {
+    "name": "Rahila Eneh",
+    "state": "Taraba",
+    "lga": "Kumi",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-677": {
+    "name": "Usman Onah",
+    "state": "Cross River",
+    "lga": "Bekwarra",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-678": {
+    "name": "Chioma Obiechina",
+    "state": "Ondo",
+    "lga": "Akure North",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-679": {
+    "name": "Zainab Lawan",
+    "state": "FCT",
+    "lga": "Municipal Area Council",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-680": {
+    "name": "Rahila Shehu",
+    "state": "Sokoto",
+    "lga": "Gudu",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-681": {
+    "name": "Rahila Fayemi",
+    "state": "FCT",
+    "lga": "Bwari",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-682": {
+    "name": "Abdullahi Yakubu",
+    "state": "Benue",
+    "lga": "Konshisha",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-683": {
+    "name": "Adeniyi Aigbokhan",
+    "state": "Sokoto",
+    "lga": "Binji",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-684": {
+    "name": "Sola Tanko",
+    "state": "Akwa Ibom",
+    "lga": "Ibeno",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-685": {
+    "name": "Oluwatimilehin Okeke",
+    "state": "Delta",
+    "lga": "Bomadi",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-686": {
+    "name": "Omolade Olawale",
+    "state": "Kebbi",
+    "lga": "Augie",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-687": {
+    "name": "Chiamaka Shagari",
+    "state": "Bauchi",
+    "lga": "Jama'are",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-688": {
+    "name": "Chukwu Ogunyemi",
+    "state": "Anambra",
+    "lga": "Awka South",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-689": {
+    "name": "Ifeoluseun Obi",
+    "state": "Niger",
+    "lga": "Agwara",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-690": {
+    "name": "Mercy Okpebholo",
+    "state": "Katsina",
+    "lga": "Charanchi",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-691": {
+    "name": "Chibuokem Okonkwo",
+    "state": "Lagos",
+    "lga": "Amuwo-Odofin",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-692": {
+    "name": "Peace Aigbokhan",
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-693": {
+    "name": "Rabiu Ero",
+    "state": "Ekiti",
+    "lga": "Ijero",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-694": {
+    "name": "Nnamdi Okafor",
+    "state": "Ogun",
+    "lga": "Abeokuta North",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-695": {
+    "name": "Ifechi Eneh",
+    "state": "Abia",
+    "lga": "Isiala Ngwa North",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-696": {
+    "name": "Oluwabunmi Bamidele",
+    "state": "Katsina",
+    "lga": "Batagarawa",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-697": {
+    "name": "Ifunanya Dankwa",
+    "state": "Ogun",
+    "lga": "Ijebu East",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-698": {
+    "name": "Uchenna Ize-Iyamu",
+    "state": "Kaduna",
+    "lga": "Chikun",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-699": {
+    "name": "Adekunle Mbadinuju",
+    "state": "Taraba",
+    "lga": "Jalingo",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-700": {
+    "name": "Chibundo Osagie",
+    "state": "Bayelsa",
+    "lga": "Ekeremor",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-701": {
+    "name": "Obinna Sambo",
+    "state": "Niger",
+    "lga": "Agwara",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-702": {
+    "name": "Hauwa Hussaini",
+    "state": "Cross River",
+    "lga": "Bakassi",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-703": {
+    "name": "David Bamidele",
+    "state": "Kebbi",
+    "lga": "Bunza",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-704": {
+    "name": "Chiamaka Imam",
+    "state": "Kaduna",
+    "lga": "Igabi",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-705": {
+    "name": "Taiwo Bello",
+    "state": "Benue",
+    "lga": "Apa",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-706": {
+    "name": "Usman Imam",
+    "state": "Oyo",
+    "lga": "Ibadan North",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-707": {
+    "name": "Chukwu Ogunremi",
+    "state": "Kwara",
+    "lga": "Ekiti",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-708": {
+    "name": "Love Babangida",
+    "state": "Jigawa",
+    "lga": "Babura",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-709": {
+    "name": "Abdullahi Lam-Adesina",
+    "state": "Katsina",
+    "lga": "Daura",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-710": {
+    "name": "Adeola Oyinlola",
+    "state": "Kebbi",
+    "lga": "Argungu",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-711": {
+    "name": "Samuel Ani",
+    "state": "Niger",
+    "lga": "Gurara",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-712": {
+    "name": "Joy Lawan",
+    "state": "Edo",
+    "lga": "Akoko-Edo",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-713": {
+    "name": "Chibuike Briggs",
+    "state": "Zamfara",
+    "lga": "Bukkuyum",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-714": {
+    "name": "Chibuzor Ibrahim",
+    "state": "Cross River",
+    "lga": "Akamkpa",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-715": {
+    "name": "Hauwa Oyinlola",
+    "state": "Gombe",
+    "lga": "Billiri",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-716": {
+    "name": "Adewumi Onah",
+    "state": "Bayelsa",
+    "lga": "Ogbia",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-717": {
+    "name": "Kemi Nnaji",
+    "state": "Ekiti",
+    "lga": "Ido Osi",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-718": {
+    "name": "Funmi Achebe",
+    "state": "Kogi",
+    "lga": "Ajaokuta",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-719": {
+    "name": "Chibuzor Chukwu",
+    "state": "Ebonyi",
+    "lga": "Ohaozara",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-720": {
+    "name": "Adewunmi Ogunbodede",
+    "state": "Adamawa",
+    "lga": "Hong",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-721": {
+    "name": "Sani Ani",
+    "state": "Enugu",
+    "lga": "Enugu East",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-722": {
+    "name": "Grace Imam",
+    "state": "Delta",
+    "lga": "Aniocha North",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-723": {
+    "name": "Emmanuel Ribadu",
+    "state": "Kano",
+    "lga": "Dambatta",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-724": {
+    "name": "Saliha Anozie",
+    "state": "Bayelsa",
+    "lga": "Ogbia",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-725": {
+    "name": "Kelechi Mustapha",
+    "state": "Ekiti",
+    "lga": "Ijero",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-726": {
+    "name": "Ifedayo Ajimobi",
+    "state": "Adamawa",
+    "lga": "Hong",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-727": {
+    "name": "Saliha Oguntayo",
+    "state": "Rivers",
+    "lga": "Asari-Toru",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-728": {
+    "name": "Rakiya Onyekachi",
+    "state": "Nasarawa",
+    "lga": "Keana",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-729": {
+    "name": "Ngozi Nwachukwu",
+    "state": "Gombe",
+    "lga": "Akko",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-730": {
+    "name": "Aisha Lam-Adesina",
+    "state": "Plateau",
+    "lga": "Langtang North",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-731": {
+    "name": "Adekunle Adeyemi",
+    "state": "Benue",
+    "lga": "Buruku",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-732": {
+    "name": "Luke Ogunremi",
+    "state": "Anambra",
+    "lga": "Ayamelum",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-733": {
+    "name": "Oluwafunmilayo Ani",
+    "state": "Edo",
+    "lga": "Esan Central",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-734": {
+    "name": "Chiamaka Lam-Adesina",
+    "state": "Kwara",
+    "lga": "Isin",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-735": {
+    "name": "Hassan Douglas",
+    "state": "FCT",
+    "lga": "Bwari",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-736": {
+    "name": "Shehu Adebayo",
+    "state": "Rivers",
+    "lga": "Eleme",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-737": {
+    "name": "Sani Ogunwale",
+    "state": "Akwa Ibom",
+    "lga": "Eastern Obolo",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-738": {
+    "name": "Adekunle Isokariari",
+    "state": "Gombe",
+    "lga": "Akko",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-739": {
+    "name": "Saliha Okafor",
+    "state": "Kogi",
+    "lga": "Kabba/Bunu",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-740": {
+    "name": "Ifeoma Ugwu",
+    "state": "Edo",
+    "lga": "Esan West",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-741": {
+    "name": "Kemi Aliyu",
+    "state": "Delta",
+    "lga": "Aniocha South",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-742": {
+    "name": "Oluwaseun Mbah",
+    "state": "Lagos",
+    "lga": "Epe",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-743": {
+    "name": "Toyin Ugwu",
+    "state": "Katsina",
+    "lga": "Charanchi",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-744": {
+    "name": "Abdullahi Orbih",
+    "state": "Ondo",
+    "lga": "Idanre",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-745": {
+    "name": "Sani Obaseki",
+    "state": "Zamfara",
+    "lga": "Maradun",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-746": {
+    "name": "Adebayo Yar'adua",
+    "state": "Edo",
+    "lga": "Etsako Central",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-747": {
+    "name": "Hope Sani",
+    "state": "Edo",
+    "lga": "Akoko-Edo",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-748": {
+    "name": "Ayodele Bamidele",
+    "state": "FCT",
+    "lga": "Abaji",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-749": {
+    "name": "Chiamaka Okeke",
+    "state": "Gombe",
+    "lga": "Shomgom",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-750": {
+    "name": "Rahila Aliyu",
+    "state": "Kogi",
+    "lga": "Ajaokuta",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-751": {
+    "name": "Chinyere Nwachukwu",
+    "state": "Ebonyi",
+    "lga": "Afikpo North",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-752": {
+    "name": "Chibueze Okonkwo",
+    "state": "Jigawa",
+    "lga": "Birniwa",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-753": {
+    "name": "Halima Eneh",
+    "state": "Jigawa",
+    "lga": "Babura",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-754": {
+    "name": "Ibrahim Ogbu",
+    "state": "Osun",
+    "lga": "Ede North",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-755": {
+    "name": "Gbemisola Ogunbodede",
+    "state": "Nasarawa",
+    "lga": "Keffi",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-756": {
+    "name": "Oluwabunmi Usman",
+    "state": "Plateau",
+    "lga": "Langtang South",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-757": {
+    "name": "Yahaya Imam",
+    "state": "Bauchi",
+    "lga": "Alkaleri",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-758": {
+    "name": "Kemi Nwachukwu",
+    "state": "Jigawa",
+    "lga": "Babura",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-759": {
+    "name": "Ogochukwu Ogunleye",
+    "state": "Nasarawa",
+    "lga": "Doma",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-760": {
+    "name": "Funmi Ugwu",
+    "state": "Plateau",
+    "lga": "Barkin Ladi",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-761": {
+    "name": "Usman Isokariari",
+    "state": "Ondo",
+    "lga": "Akoko South Akure East",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-762": {
+    "name": "Toyin Obiechina",
+    "state": "Enugu",
+    "lga": "Enugu North",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-763": {
+    "name": "Ifechi Lawan",
+    "state": "Kano",
+    "lga": "Bichi",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-764": {
+    "name": "Bukola Chukwu",
+    "state": "Niger",
+    "lga": "Katcha",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-765": {
+    "name": "Ramatu Yusuf",
+    "state": "Anambra",
+    "lga": "Ekwusigo",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-766": {
+    "name": "Omobolanle Musa",
+    "state": "Kano",
+    "lga": "Dawakin Tofa",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-767": {
+    "name": "Taiwo Usman",
+    "state": "Adamawa",
+    "lga": "Girei",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-768": {
+    "name": "Faith Abubakar",
+    "state": "Plateau",
+    "lga": "Bassa",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-769": {
+    "name": "Adewunmi Ogundele",
+    "state": "Rivers",
+    "lga": "Andoni",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-770": {
+    "name": "Ifedayo Ogbu",
+    "state": "Edo",
+    "lga": "Esan West",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-771": {
+    "name": "Oluwafemi Bakare",
+    "state": "Osun",
+    "lga": "Atakumosa East",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-772": {
+    "name": "Nkemsinachi Babangida",
+    "state": "Jigawa",
+    "lga": "Birniwa",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-773": {
+    "name": "Hauwa Yusuf",
+    "state": "Benue",
+    "lga": "Agatu",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-774": {
+    "name": "Ifechi Lawal",
+    "state": "Gombe",
+    "lga": "Nafada",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-775": {
+    "name": "Oluwafunmilayo Ajibola",
+    "state": "Taraba",
+    "lga": "Jalingo",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-776": {
+    "name": "Salihu Peterside",
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-777": {
+    "name": "Femi Tijani",
+    "state": "Akwa Ibom",
+    "lga": "Ibesikpo Asutan",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-778": {
+    "name": "Ifeoluseun Rasaq",
+    "state": "FCT",
+    "lga": "Municipal Area Council",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-779": {
+    "name": "Chijioke Garba",
+    "state": "Osun",
+    "lga": "Ayedaade",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-780": {
+    "name": "Segun Lam-Adesina",
+    "state": "Ekiti",
+    "lga": "Ekiti East",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-781": {
+    "name": "Omolola Abubakar",
+    "state": "Ondo",
+    "lga": "Akoko South West",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-782": {
+    "name": "David Nwachukwu",
+    "state": "Bauchi",
+    "lga": "Bauchi",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-783": {
+    "name": "Adewunmi Amadi",
+    "state": "Kebbi",
+    "lga": "Bagudo",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-784": {
+    "name": "Chibundo Okeke",
+    "state": "Abia",
+    "lga": "Ohafia",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-785": {
+    "name": "Ifeoma Makinde",
+    "state": "Ogun",
+    "lga": "Abeokuta South",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-786": {
+    "name": "Nnamdi Aliyu",
+    "state": "FCT",
+    "lga": "Kwali",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-787": {
+    "name": "Toyin Obi",
+    "state": "Benue",
+    "lga": "Konshisha",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-788": {
+    "name": "Blessing Obiano",
+    "state": "Yobe",
+    "lga": "Geidam",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-789": {
+    "name": "Matthew Ogbu",
+    "state": "Rivers",
+    "lga": "Emohua",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-790": {
+    "name": "Salihu Igwe",
+    "state": "Edo",
+    "lga": "Esan South East",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-791": {
+    "name": "Uchenna Obasi",
+    "state": "Niger",
+    "lga": "Agaie",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-792": {
+    "name": "Nkechi Tambuwal",
+    "state": "Imo",
+    "lga": "Aboh Mbaise",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-793": {
+    "name": "Luke Mbadinuju",
+    "state": "Lagos",
+    "lga": "Agege",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-794": {
+    "name": "Peace Waziri",
+    "state": "Kaduna",
+    "lga": "Kachia",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-795": {
+    "name": "Adeniyi Bello",
+    "state": "Katsina",
+    "lga": "Dandume",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-796": {
+    "name": "Luke Orbih",
+    "state": "Ogun",
+    "lga": "Ijebu North East",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-797": {
+    "name": "Shehu Suleiman",
+    "state": "Enugu",
+    "lga": "Igbo Etiti",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-798": {
+    "name": "Ifeoluseun Obiano",
+    "state": "Lagos",
+    "lga": "Agege",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-799": {
+    "name": "Abdullahi Nnaji",
+    "state": "Katsina",
+    "lga": "Danja",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-800": {
+    "name": "Obinna Okpebholo",
+    "state": "Taraba",
+    "lga": "Lau",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-801": {
+    "name": "Sani Adeleke",
+    "state": "Ekiti",
+    "lga": "Ado Ekiti",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-802": {
+    "name": "Amaka Shehu",
+    "state": "Anambra",
+    "lga": "Ekwusigo",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-803": {
+    "name": "Patience Onah",
+    "state": "Oyo",
+    "lga": "Ibadan South East",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-804": {
+    "name": "Obiora Kwankwaso",
+    "state": "Adamawa",
+    "lga": "Girei",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-805": {
+    "name": "Ramatu Diri",
+    "state": "Osun",
+    "lga": "Ayedaade",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-806": {
+    "name": "Oluchi Eneh",
+    "state": "Ebonyi",
+    "lga": "Ezza South",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-807": {
+    "name": "Mercy Nwosu",
+    "state": "Nasarawa",
+    "lga": "Akwanga",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-808": {
+    "name": "Segun Fayemi",
+    "state": "Gombe",
+    "lga": "Dukku",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-809": {
+    "name": "Luke Ciroma",
+    "state": "Ogun",
+    "lga": "Ijebu North",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-810": {
+    "name": "Tunde Ogundele",
+    "state": "Cross River",
+    "lga": "Akpabuyo",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-811": {
+    "name": "Tunde Olawale",
+    "state": "Jigawa",
+    "lga": "Guri",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-812": {
+    "name": "Patience Hassan",
+    "state": "Nasarawa",
+    "lga": "Keffi",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-813": {
+    "name": "Daniel Olanrewaju",
+    "state": "Oyo",
+    "lga": "Egbeda",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-814": {
+    "name": "Adewunmi Cookey",
+    "state": "Benue",
+    "lga": "Ado",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-815": {
+    "name": "Oluwakemi Briggs",
+    "state": "Kano",
+    "lga": "Bichi",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-816": {
+    "name": "Rashida Nnaji",
+    "state": "Kogi",
+    "lga": "Dekina",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-817": {
+    "name": "Patience Lawan",
+    "state": "Katsina",
+    "lga": "Baure",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-818": {
+    "name": "Ifeoluseun Akin-George",
+    "state": "Imo",
+    "lga": "Aboh Mbaise",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-819": {
+    "name": "Taiwo Gusau",
+    "state": "Kebbi",
+    "lga": "Argungu",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-820": {
+    "name": "Rahila Maigari",
+    "state": "Jigawa",
+    "lga": "Gagarawa",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-821": {
+    "name": "Oluwafunmilayo Aigbokhan",
+    "state": "Akwa Ibom",
+    "lga": "Ibiono-Ibom",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-822": {
+    "name": "Shehu Ugwu",
+    "state": "Gombe",
+    "lga": "Nafada",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-823": {
+    "name": "Mustapha Ogunyemi",
+    "state": "Katsina",
+    "lga": "Batsari",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-824": {
+    "name": "Bala Maigari",
+    "state": "Benue",
+    "lga": "Gwer West",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-825": {
+    "name": "David Shaibu",
+    "state": "Zamfara",
+    "lga": "Birnin Magaji/Kiyaw",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-826": {
+    "name": "Rotimi Olawale",
+    "state": "Kwara",
+    "lga": "Ekiti",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-827": {
+    "name": "Omolade Makinde",
+    "state": "Kogi",
+    "lga": "Ibaji",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-828": {
+    "name": "Hope Babangida",
+    "state": "Borno",
+    "lga": "Dikwa",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-829": {
+    "name": "Ramatu Ogundele",
+    "state": "Ekiti",
+    "lga": "Ijero",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-830": {
+    "name": "Oluwaseyi Ogunyele",
+    "state": "Katsina",
+    "lga": "Dan Musa",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-831": {
+    "name": "Nnamdi Bello",
+    "state": "Ekiti",
+    "lga": "Emure",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-832": {
+    "name": "Chibundo Aliyu",
+    "state": "Kebbi",
+    "lga": "Argungu",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-833": {
+    "name": "Ramat Obiechina",
+    "state": "Edo",
+    "lga": "Esan West",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-834": {
+    "name": "Chidi Imam",
+    "state": "Kaduna",
+    "lga": "Igabi",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-835": {
+    "name": "Abdullahi Ogunwale",
+    "state": "Bayelsa",
+    "lga": "Kolokuma/Opokuma",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-836": {
+    "name": "Nkemjika Sambo",
+    "state": "Ondo",
+    "lga": "Ese Odo",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-837": {
+    "name": "Saliha Ogbu",
+    "state": "Abia",
+    "lga": "Aba North",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-838": {
+    "name": "Taiwo Orbih",
+    "state": "Lagos",
+    "lga": "Agege",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-839": {
+    "name": "Ifunanya Adeleke",
+    "state": "Adamawa",
+    "lga": "Demsa",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-840": {
+    "name": "Adebayo Tambuwal",
+    "state": "Kwara",
+    "lga": "Ifelodun",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-841": {
+    "name": "Seun Ogbu",
+    "state": "Sokoto",
+    "lga": "Kebbe",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-842": {
+    "name": "Usman Nnaji",
+    "state": "Akwa Ibom",
+    "lga": "Essien Udim",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-843": {
+    "name": "Chibuokem Orbih",
+    "state": "Taraba",
+    "lga": "Lau",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-844": {
+    "name": "Ebele Hussaini",
+    "state": "Cross River",
+    "lga": "Biase",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-845": {
+    "name": "Mustapha Esele",
+    "state": "Ekiti",
+    "lga": "Ekiti East",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-846": {
+    "name": "Yemi Akinsanya",
+    "state": "Gombe",
+    "lga": "Billiri",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-847": {
+    "name": "Kemi Eze",
+    "state": "Sokoto",
+    "lga": "Dange Shuni",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-848": {
+    "name": "Oluwaseun Ize-Iyamu",
+    "state": "Akwa Ibom",
+    "lga": "Etinan",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-849": {
+    "name": "Ifenna Obasi",
+    "state": "Anambra",
+    "lga": "Njikoka",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-850": {
+    "name": "Wale Ciroma",
+    "state": "Adamawa",
+    "lga": "Demsa",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-851": {
+    "name": "Omolara Suleiman",
+    "state": "Nasarawa",
+    "lga": "Awe",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-852": {
+    "name": "Daniel Ogundele",
+    "state": "Delta",
+    "lga": "Burutu",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-853": {
+    "name": "Peace Mustapha",
+    "state": "Benue",
+    "lga": "Katsina-Ala",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-854": {
+    "name": "Kelechi Mustapha",
+    "state": "Benue",
+    "lga": "Katsina-Ala",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-855": {
+    "name": "Chukwu Dikko",
+    "state": "Borno",
+    "lga": "Askira/Uba",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-856": {
+    "name": "Dare Isokariari",
+    "state": "Ekiti",
+    "lga": "Ekiti West",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-857": {
+    "name": "Taiwo Ani",
+    "state": "Ogun",
+    "lga": "Egbado South",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-858": {
+    "name": "Bello Amadi",
+    "state": "Rivers",
+    "lga": "Akuku-Toru",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-859": {
+    "name": "Nkechi Dankwa",
+    "state": "Abia",
+    "lga": "Aba North",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-860": {
+    "name": "Gbenga Oyinlola",
+    "state": "FCT",
+    "lga": "Municipal Area Council",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-861": {
+    "name": "Nnamdi Musa",
+    "state": "Sokoto",
+    "lga": "Bodinga",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-862": {
+    "name": "Joshua Ribadu",
+    "state": "Gombe",
+    "lga": "Kwami",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-863": {
+    "name": "Matthew Babangida",
+    "state": "Anambra",
+    "lga": "Awka North",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-864": {
+    "name": "Bello Fayemi",
+    "state": "Kano",
+    "lga": "Bunkure",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-865": {
+    "name": "Omobolanle Aigbokhan",
+    "state": "Borno",
+    "lga": "Askira/Uba",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-866": {
+    "name": "Tunde Fayemi",
+    "state": "Cross River",
+    "lga": "Akpabuyo",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-867": {
+    "name": "Mustapha Mbadinuju",
+    "state": "Osun",
+    "lga": "Ejigbo",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-868": {
+    "name": "Funmi Onah",
+    "state": "Kogi",
+    "lga": "Ankpa",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-869": {
+    "name": "Adewumi Salami",
+    "state": "Oyo",
+    "lga": "Egbeda",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-870": {
+    "name": "Saliha Rasaq",
+    "state": "Ogun",
+    "lga": "Ado-Odo/Ota",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-871": {
+    "name": "Ifeoma Bindow",
+    "state": "Anambra",
+    "lga": "Awka South",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-872": {
+    "name": "Omolara Ezeife",
+    "state": "Plateau",
+    "lga": "Langtang South",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-873": {
+    "name": "Bala Wosu",
+    "state": "Nasarawa",
+    "lga": "Keffi",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-874": {
+    "name": "Chioma Soludo",
+    "state": "Cross River",
+    "lga": "Calabar Municipal",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-875": {
+    "name": "Gbenga Ngige",
+    "state": "Ogun",
+    "lga": "Ijebu East",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-876": {
+    "name": "Zainab Lawan",
+    "state": "Kebbi",
+    "lga": "Aleiro",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-877": {
+    "name": "Adebayo Yar'adua",
+    "state": "Kogi",
+    "lga": "Ijumu",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-878": {
+    "name": "Bukola Hussaini",
+    "state": "Imo",
+    "lga": "Ikeduru",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-879": {
+    "name": "Oluwatimilehin Yusuf",
+    "state": "Zamfara",
+    "lga": "Maradun",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-880": {
+    "name": "Tunde Ribadu",
+    "state": "Ebonyi",
+    "lga": "Izzi",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-881": {
+    "name": "Rabiu Obiano",
+    "state": "Ebonyi",
+    "lga": "Afikpo North",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-882": {
+    "name": "Adaobi Dankwa",
+    "state": "Kogi",
+    "lga": "Dekina",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-883": {
+    "name": "Rahinatu Olawale",
+    "state": "Zamfara",
+    "lga": "Gummi",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-884": {
+    "name": "Sunday Abubakar",
+    "state": "Oyo",
+    "lga": "Ibadan North West",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-885": {
+    "name": "Chibueze Musa",
+    "state": "Rivers",
+    "lga": "Degema",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-886": {
+    "name": "Chukwu Ogunbodede",
+    "state": "Adamawa",
+    "lga": "Fufore",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-887": {
+    "name": "Gbemisola Igwe",
+    "state": "Zamfara",
+    "lga": "Kaura Namoda",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-888": {
+    "name": "Funmi Ajimobi",
+    "state": "Katsina",
+    "lga": "Danja",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-889": {
+    "name": "Kehinde Ciroma",
+    "state": "Oyo",
+    "lga": "Ibadan North",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-890": {
+    "name": "Fatima Ajibola",
+    "state": "Gombe",
+    "lga": "Kwami",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-891": {
+    "name": "Salihu Ize-Iyamu",
+    "state": "Lagos",
+    "lga": "Eti-Osa",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-892": {
+    "name": "Bukola Akin-George",
+    "state": "Gombe",
+    "lga": "Akko",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-893": {
+    "name": "Hassan Oyinlola",
+    "state": "Kano",
+    "lga": "Dawakin Kudu",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-894": {
+    "name": "Oluwakemi Bindow",
+    "state": "Benue",
+    "lga": "Ado",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-895": {
+    "name": "Rabiu Bello",
+    "state": "Ogun",
+    "lga": "Abeokuta South",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-896": {
+    "name": "Dare Adeleke",
+    "state": "Borno",
+    "lga": "Damboa",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-897": {
+    "name": "Chibundo Aregbesola",
+    "state": "Ekiti",
+    "lga": "Emure",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-898": {
+    "name": "Omolara Obi",
+    "state": "Borno",
+    "lga": "Dikwa",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-899": {
+    "name": "Rahinatu Bello",
+    "state": "Rivers",
+    "lga": "Abua/Odual",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-900": {
+    "name": "Ibrahim Amadi",
+    "state": "Ondo",
+    "lga": "Ilaje",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-901": {
+    "name": "Ifeanyi Okpebholo",
+    "state": "Edo",
+    "lga": "Igueben",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-902": {
+    "name": "Uzoma Ibrahim",
+    "state": "Nasarawa",
+    "lga": "Nasarawa Egon",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-903": {
+    "name": "Adaobi Ogunyemi",
+    "state": "Nasarawa",
+    "lga": "Kokona",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-904": {
+    "name": "Samuel Tukur",
+    "state": "Niger",
+    "lga": "Chanchaga",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-905": {
+    "name": "Chibuike Lam-Adesina",
+    "state": "Cross River",
+    "lga": "Akpabuyo",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-906": {
+    "name": "Ifeoluwa Buba",
+    "state": "Zamfara",
+    "lga": "Chafe",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-907": {
+    "name": "Adeola Afolabi",
+    "state": "Enugu",
+    "lga": "Isi Uzo",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-908": {
+    "name": "Chinyere Okeke",
+    "state": "Cross River",
+    "lga": "Akpabuyo",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-909": {
+    "name": "Ifechi Tambuwal",
+    "state": "Kebbi",
+    "lga": "Arewa",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-910": {
+    "name": "Saliha Cookey",
+    "state": "FCT",
+    "lga": "Municipal Area Council",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-911": {
+    "name": "Ifenna Dikko",
+    "state": "Ondo",
+    "lga": "Akoko North East",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-912": {
+    "name": "Wale Nwosu",
+    "state": "Nasarawa",
+    "lga": "Doma",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-913": {
+    "name": "Aisha Afolabi",
+    "state": "Kaduna",
+    "lga": "Giwa",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-914": {
+    "name": "Daniel Aliyu",
+    "state": "Anambra",
+    "lga": "Dunukofia",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-915": {
+    "name": "Ifechi Igwe",
+    "state": "Kwara",
+    "lga": "Ilorin West",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-916": {
+    "name": "Adebayo Osagie",
+    "state": "Zamfara",
+    "lga": "Gummi",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-917": {
+    "name": "Ifeanyi Makinde",
+    "state": "Kano",
+    "lga": "Ajingi",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-918": {
+    "name": "Oluwafunmilayo Mustapha",
+    "state": "Kebbi",
+    "lga": "Fakai",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-919": {
+    "name": "Sola Osagie",
+    "state": "Jigawa",
+    "lga": "Birniwa",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-920": {
+    "name": "Chizaram Oyinlola",
+    "state": "Gombe",
+    "lga": "Gombe",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-921": {
+    "name": "Ifedayo Aigbokhan",
+    "state": "Ekiti",
+    "lga": "Ekiti South West",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-922": {
+    "name": "Chibueze Akinwande",
+    "state": "Bauchi",
+    "lga": "Bogoro",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-923": {
+    "name": "Ifeoluwa Garba",
+    "state": "Nasarawa",
+    "lga": "Akwanga",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-924": {
+    "name": "Grace Briggs",
+    "state": "Jigawa",
+    "lga": "Birnin Kudu",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-925": {
+    "name": "Joshua Okafor",
+    "state": "Kogi",
+    "lga": "Igalamela/Odolu",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-926": {
+    "name": "Bello Yusuf",
+    "state": "Kebbi",
+    "lga": "Gwandu",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-927": {
+    "name": "Peace Ogunwale",
+    "state": "FCT",
+    "lga": "Kwali",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-928": {
+    "name": "Ramatu Makinde",
+    "state": "Kebbi",
+    "lga": "Fakai",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-929": {
+    "name": "Kabiru Ogunsanya",
+    "state": "Bauchi",
+    "lga": "Itas/Gadau",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-930": {
+    "name": "Omolara Oguntayo",
+    "state": "Yobe",
+    "lga": "Gujba",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-931": {
+    "name": "Oluchi Olawale",
+    "state": "Enugu",
+    "lga": "Ezeagu",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-932": {
+    "name": "Babatunde Maigari",
+    "state": "Enugu",
+    "lga": "Isi Uzo",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-933": {
+    "name": "Salihu Briggs",
+    "state": "Abia",
+    "lga": "Aba South",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-934": {
+    "name": "Chibueze Dankwa",
+    "state": "Imo",
+    "lga": "Aboh Mbaise",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-935": {
+    "name": "Oluwaseyi Okeke",
+    "state": "Borno",
+    "lga": "Damboa",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-936": {
+    "name": "Ifechi Shaibu",
+    "state": "Kano",
+    "lga": "Ajingi",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-937": {
+    "name": "Oluwakemi Ogunlade",
+    "state": "Sokoto",
+    "lga": "Illela",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-938": {
+    "name": "Musa Maigari",
+    "state": "Ekiti",
+    "lga": "Emure",
+    "ward": "New Settlement Ward"
+  },
+  "BVAS-NG-2023-939": {
+    "name": "Biodun Usman",
+    "state": "Ebonyi",
+    "lga": "Izzi",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-940": {
+    "name": "Chidi Dasuki",
+    "state": "Bauchi",
+    "lga": "Damban",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-941": {
+    "name": "Omolola Oyinlola",
+    "state": "Benue",
+    "lga": "Buruku",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-942": {
+    "name": "Nkemjika Ribadu",
+    "state": "Bauchi",
+    "lga": "Bogoro",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-943": {
+    "name": "Chibundo Ize-Iyamu",
+    "state": "Kogi",
+    "lga": "Adavi",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-944": {
+    "name": "Ramatu Chukwu",
+    "state": "Edo",
+    "lga": "Esan South East",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-945": {
+    "name": "Ramatu Peterside",
+    "state": "Gombe",
+    "lga": "Funakaye",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-946": {
+    "name": "Oluwafunmilayo Imam",
+    "state": "Niger",
+    "lga": "Edati",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-947": {
+    "name": "Yemi Ogbu",
+    "state": "Borno",
+    "lga": "Gubio",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-948": {
+    "name": "Zainab Esele",
+    "state": "Akwa Ibom",
+    "lga": "Eastern Obolo",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-949": {
+    "name": "Rakiya Ibrahim",
+    "state": "Kano",
+    "lga": "Bichi",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-950": {
+    "name": "Rotimi Dikko",
+    "state": "Osun",
+    "lga": "Ede North",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-951": {
+    "name": "Chioma Ogundele",
+    "state": "Ebonyi",
+    "lga": "Izzi",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-952": {
+    "name": "Obinna Osagie",
+    "state": "Niger",
+    "lga": "Gurara",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-953": {
+    "name": "Uchenna Buba",
+    "state": "Lagos",
+    "lga": "Agege",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-954": {
+    "name": "Uchenna Garba",
+    "state": "Akwa Ibom",
+    "lga": "Abak",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-955": {
+    "name": "Ayodele Ogunremi",
+    "state": "Zamfara",
+    "lga": "Bakura",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-956": {
+    "name": "Adewale Osagie",
+    "state": "Kwara",
+    "lga": "Ekiti",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-957": {
+    "name": "Ifeoluwa Aliyu",
+    "state": "Ebonyi",
+    "lga": "Afikpo South",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-958": {
+    "name": "Daniel Adeleke",
+    "state": "Borno",
+    "lga": "Bama",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-959": {
+    "name": "Fatima Bamidele",
+    "state": "Zamfara",
+    "lga": "Gusau",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-960": {
+    "name": "Ramatu Maigari",
+    "state": "Bauchi",
+    "lga": "Darazo",
+    "ward": "Ward D"
+  },
+  "BVAS-NG-2023-961": {
+    "name": "Dare Shaibu",
+    "state": "Rivers",
+    "lga": "Asari-Toru",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-962": {
+    "name": "Uzoma Yar'adua",
+    "state": "Imo",
+    "lga": "Ahiazu Mbaise",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-963": {
+    "name": "Halima Achebe",
+    "state": "Ekiti",
+    "lga": "Emure",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-964": {
+    "name": "Chibuike Obiechina",
+    "state": "Katsina",
+    "lga": "Daura",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-965": {
+    "name": "Oluwaseun Lam-Adesina",
+    "state": "Kebbi",
+    "lga": "Bunza",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-966": {
+    "name": "Chidi Nwachukwu",
+    "state": "Imo",
+    "lga": "Ezinihitte",
+    "ward": "East Ward"
+  },
+  "BVAS-NG-2023-967": {
+    "name": "Patience Adebayo",
+    "state": "Lagos",
+    "lga": "Alimosho",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-968": {
+    "name": "Saliha Babangida",
+    "state": "Osun",
+    "lga": "Boripe",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-969": {
+    "name": "Ramat Amadi",
+    "state": "Benue",
+    "lga": "Apa",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-970": {
+    "name": "Femi Adebayo",
+    "state": "Kaduna",
+    "lga": "Giwa",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-971": {
+    "name": "Dare Lawan",
+    "state": "Bauchi",
+    "lga": "Bauchi",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-972": {
+    "name": "Rahinatu Dasuki",
+    "state": "Adamawa",
+    "lga": "Madagali",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-973": {
+    "name": "Taiwo Ero",
+    "state": "Enugu",
+    "lga": "Aninri",
+    "ward": "Market Ward"
+  },
+  "BVAS-NG-2023-974": {
+    "name": "David Oguntayo",
+    "state": "Yobe",
+    "lga": "Gulani",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-975": {
+    "name": "Oluwaseun Tijani",
+    "state": "Gombe",
+    "lga": "Shomgom",
+    "ward": "Ward 5"
+  },
+  "BVAS-NG-2023-976": {
+    "name": "Obinna Babangida",
+    "state": "Sokoto",
+    "lga": "Isa",
+    "ward": "Ward C"
+  },
+  "BVAS-NG-2023-977": {
+    "name": "Adewunmi Asogwa",
+    "state": "Sokoto",
+    "lga": "Binji",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-978": {
+    "name": "Usman Esele",
+    "state": "Sokoto",
+    "lga": "Dange Shuni",
+    "ward": "West Ward"
+  },
+  "BVAS-NG-2023-979": {
+    "name": "Abdullahi Akinwande",
+    "state": "FCT",
+    "lga": "Kwali",
+    "ward": "Ward E"
+  },
+  "BVAS-NG-2023-980": {
+    "name": "Rashida Ani",
+    "state": "Akwa Ibom",
+    "lga": "Esit-Eket",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-981": {
+    "name": "Adekunle Nnaji",
+    "state": "Jigawa",
+    "lga": "Dutse",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-982": {
+    "name": "Bello Yar'adua",
+    "state": "Enugu",
+    "lga": "Igbo Eze South",
+    "ward": "North Ward"
+  },
+  "BVAS-NG-2023-983": {
+    "name": "Oluwafunmilayo Ogundele",
+    "state": "Oyo",
+    "lga": "Afijio",
+    "ward": "Ward B"
+  },
+  "BVAS-NG-2023-984": {
+    "name": "Adaobi Ibrahim",
+    "state": "Taraba",
+    "lga": "Gassol",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-985": {
+    "name": "Ifedayo Douglas",
+    "state": "Edo",
+    "lga": "Etsako Central",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-986": {
+    "name": "Oluwaseun Eze",
+    "state": "Bauchi",
+    "lga": "Itas/Gadau",
+    "ward": "Ward 4"
+  },
+  "BVAS-NG-2023-987": {
+    "name": "Oluwabunmi Ezeife",
+    "state": "Gombe",
+    "lga": "Nafada",
+    "ward": "South Ward"
+  },
+  "BVAS-NG-2023-988": {
+    "name": "Hassan Ajibola",
+    "state": "Kwara",
+    "lga": "Ilorin West",
+    "ward": "Old Town Ward"
+  },
+  "BVAS-NG-2023-989": {
+    "name": "Chidi Ogunyemi",
+    "state": "Cross River",
+    "lga": "Calabar Municipal",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-990": {
+    "name": "Adeniyi Mbah",
+    "state": "Sokoto",
+    "lga": "Goronyo",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-991": {
+    "name": "Nnamdi Bakare",
+    "state": "Ebonyi",
+    "lga": "Ikwo",
+    "ward": "Hill Ward"
+  },
+  "BVAS-NG-2023-992": {
+    "name": "Chukwu Gusau",
+    "state": "Gombe",
+    "lga": "Kaltungo",
+    "ward": "Central Ward"
+  },
+  "BVAS-NG-2023-993": {
+    "name": "Dayo Ogundipe",
+    "state": "Plateau",
+    "lga": "Kanke",
+    "ward": "Ward 2"
+  },
+  "BVAS-NG-2023-994": {
+    "name": "Yahaya Ribadu",
+    "state": "Ogun",
+    "lga": "Abeokuta North",
+    "ward": "Ward 3"
+  },
+  "BVAS-NG-2023-995": {
+    "name": "Musa Sani",
+    "state": "FCT",
+    "lga": "Kwali",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-996": {
+    "name": "Obinna Dasuki",
+    "state": "Sokoto",
+    "lga": "Binji",
+    "ward": "River Ward"
+  },
+  "BVAS-NG-2023-997": {
+    "name": "Chijioke Anozie",
+    "state": "Ebonyi",
+    "lga": "Ezza South",
+    "ward": "Ward 1"
+  },
+  "BVAS-NG-2023-998": {
+    "name": "Ifeoluseun Salami",
+    "state": "FCT",
+    "lga": "Municipal Area Council",
+    "ward": "Ward A"
+  },
+  "BVAS-NG-2023-999": {
+    "name": "Mercy Abubakar",
+    "state": "Enugu",
+    "lga": "Igbo Eze North",
+    "ward": "Hill Ward"
+  }
+}
