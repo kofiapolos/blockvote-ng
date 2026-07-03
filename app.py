@@ -40,7 +40,7 @@ app.secret_key = os.environ.get("SESSION_SECRET", secrets.token_hex(32))
 # Candidate photo uploads
 # ---------------------------------------------------------------------------
 UPLOAD_FOLDER = Path(__file__).parent / "static" / "uploads"
-UPLOAD_FOLDER.mkdir(exist_ok=True)
+UPLOAD_FOLDER.mkdir(parents=True, exist_ok=True)
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg", "gif", "webp"}
 
 
