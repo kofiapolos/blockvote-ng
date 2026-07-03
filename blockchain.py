@@ -47,7 +47,7 @@ def _compile_contract():
 def init_blockchain():
     """
     Initialize the simulated blockchain environment:
-      1. Start in-memory Ethereum testnet (PyEVM — equivalent to Ganache)
+      1. Start in-memory Ethereum testnet (PyEVM - equivalent to Ganache)
       2. Compile and deploy the Election smart contract
       3. Register default Nigerian presidential candidates
     Returns the deployed contract address.
