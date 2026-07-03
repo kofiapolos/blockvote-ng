@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: blockvote-ng
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: SESSION_SECRET
+        generateValue: true
